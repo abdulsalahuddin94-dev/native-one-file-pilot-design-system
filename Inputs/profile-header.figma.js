@@ -1,0 +1,12 @@
+const p=await PF.page('➜ Profile Header');
+if(p.findOne(n=>n.type==='COMPONENT'&&n.name==='Profile Header'))throw new Error('Profile Header already exists');
+const c=PF.comp('Profile Header');c.resize(343,240);c.primaryAxisSizingMode='AUTO';DS.gap(c,'Spacing/Stack Gap');DS.pad(c,'Spacing/Screen Margin','Spacing/Stack Gap');c.counterAxisAlignItems='CENTER';
+const avatar=await DS.instance('Avatar');c.appendChild(avatar);
+const identity=DS.frame('VERTICAL','Identity',{parent:c,gap:'Spacing/Tight',counter:'CENTER',w:'FILL',h:'HUG'});
+const name=await PF.text('Abdul Salah','Title','Display name',identity);name.textAlignHorizontal='CENTER';PF.textProp(c,name,'Display name','Abdul Salah');
+const email=await DS.text('abdul@example.com','Subhead','Label/Secondary','Email',identity);email.textAlignHorizontal='CENTER';PF.textProp(c,email,'Email','abdul@example.com');
+const button=await DS.instance('Button',{Variant:'Secondary',State:'Default'});c.appendChild(button);DS.props(button,{Label:'Edit profile','Leading Icon':false});
+avatar.isExposedInstance=true;button.isExposedInstance=true;
+c.description='Purpose: identity and edit action for the Profile screen. Atomic map: Avatar + identity text styles + Secondary Button. Set Display name and Email, and use exposed Avatar Initials and Button Label. Centered content works in EN and AR; email remains LTR. Inherits OS, Color and Language modes. Accessibility: button uses the native target size; identity is read name then email.';
+c.x=96;c.y=96;
+return {id:c.id,name:c.name,w:c.width,h:c.height,properties:c.componentPropertyDefinitions};

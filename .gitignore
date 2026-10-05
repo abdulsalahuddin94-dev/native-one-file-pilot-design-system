@@ -1,0 +1,4 @@
+storybook/node_modules/
+storybook/storybook-static/
+__pycache__/
+*.pyc

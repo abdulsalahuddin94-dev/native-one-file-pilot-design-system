@@ -1,0 +1,12 @@
+const header=await DS.comp('Profile Header');header.primaryAxisSizingMode='AUTO';
+const p=await PF.page('➜ Profile');
+if(p.findOne(n=>n.name==='Pattern/Profile Screen'))throw new Error('Pattern already exists');
+const c=PF.comp('Pattern/Profile Screen');c.resize(375,812);c.primaryAxisSizingMode='FIXED';c.clipsContent=true;DS.fill(c,'Surface/Screen');
+c.x=96;c.y=160;
+const app=await DS.instance('Top App Bar');c.appendChild(app);PF.fill(app);
+const priv=app.findOne(n=>n.type==='INSTANCE'&&n.name==='Top App Bar Platform');
+DS.props(priv,{Title:'Profile','Show Back':true,'Back Label':'Back','Show Action':true,'Large Title':false,'Show Inline Title':true});
+const content=DS.frame('VERTICAL','Profile content',{parent:c,w:'FILL',h:'FILL',gap:'Spacing/Section Gap',pad:['Number/0','Spacing/Stack Gap']});
+content.clipsContent=true;content.overflowDirection='VERTICAL';
+c.description='Purpose: account profile demonstration in the Native One File Pilot. Atomic map: Top App Bar + Profile Header + two List Item groups + Secondary Button. One pattern inherits OS iOS/Android, Color Light/Dark and Language EN/AR modes; copy is supplied by exposed nested text properties. App bar pinned, body vertically scrolls. Account values are illustrative demo content. Use modes rather than theme/platform/direction variants.';
+return {id:c.id,appBar:app.id,content:content.id,w:c.width,h:c.height};
