@@ -86,3 +86,9 @@ Status is `Ready for review` until the user replies; only the user's approval se
 ## Codex Profile handoff (2026-10-05)
 
 Approved plan: audits/2026-10-05-screen-spec-profile.md (Abdul: execute). Result and pending decisions: audits/2026-10-05-profile-audit.md. Pattern and all eight previews are in the DS file, matching the pilot Settings convention. Final screenshot: audits/2026-10-05-profile-modes-final.png. No linked Design files. No new variables or styles. User approval of the built result is still pending.
+
+
+## Storybook (published 2026-10-05)
+- Live link: https://abdulsalahuddin94-dev.github.io/native-one-file-pilot-design-system/ (GitHub Pages, redeploys on every push to master that touches storybook/)
+- Repo (public): https://github.com/abdulsalahuddin94-dev/native-one-file-pilot-design-system
+- Local: storybook/ (port 6008, `.claude/launch.json` > native-one-file-pilot-storybook). Toolbar: Platform (OS), Color, Language; AR translations in storybook/src/i18n/ar.json.

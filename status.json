@@ -29,7 +29,7 @@
   "_storybook_help": "storybook_plan: yes | later | no (intake 0.7). storybook_ask_at when later: components-approved | screens-approved | next-session. Register Design files with: python tools/project_status.py \"<folder>\" --add-design-file <url> --name \"<name>\".",
   "profile": {
     "status": "Ready for review",
-    "page": "\u279c Profile",
+    "page": "➜ Profile",
     "audit": "audits/2026-10-05-profile-audit.md",
     "pending": [
       "Avatar semantic size aliases",
@@ -38,5 +38,8 @@
       "Library publish",
       "Storybook sync"
     ]
-  }
+  },
+  "storybook_publish": "pages",
+  "storybook_url": "https://abdulsalahuddin94-dev.github.io/native-one-file-pilot-design-system/",
+  "storybook_repo": "https://github.com/abdulsalahuddin94-dev/native-one-file-pilot-design-system"
 }
