@@ -1,4 +1,5 @@
-storybook/node_modules/
+node_modules/
+storybook/node_modules
 storybook/storybook-static/
-__pycache__/
-*.pyc
+.DS_Store
+figma/.last_run.js

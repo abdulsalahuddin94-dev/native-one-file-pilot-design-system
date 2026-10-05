@@ -1,0 +1,144 @@
+/* Native One File Pilot components, rendered as web for documentation. Only token variables (var(--...)), no raw values
+   except 0 and layout keywords. Platform differences come from the OS mode (the same CSS variable resolves to the iOS or
+   Android value), exactly like the Figma components; platform-only parts are shown from the Platform/Is iOS|Android
+   variables in the React components. RTL comes from dir (the Language mode AR). */
+
+.sb-canvas { color: var(--label-primary); font-family: var(--font-family), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans Arabic", sans-serif; }
+.sb-row { display: flex; flex-wrap: wrap; gap: var(--spacing-section-gap); align-items: flex-start; }
+.sb-col { display: flex; flex-direction: column; gap: var(--spacing-section-gap); }
+.sb-cell-label { color: var(--label-secondary); margin-bottom: var(--spacing-stack-gap); font-family: system-ui, sans-serif; font-size: 12px; }
+/* a phone-width surface for molecules and organisms, on the platform's screen color */
+.screen-surface { background: var(--surface-screen); padding: var(--spacing-screen-margin); width: 375px; max-width: 100%; box-sizing: border-box; }
+.screen-surface.flush { padding: 0; }
+
+/* ---------- Button (Atom) ---------- */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: var(--spacing-stack-gap);
+  height: var(--button-height); padding: 0 var(--button-padding-x); border-radius: var(--button-radius);
+  border: 0; background: var(--fill-accent); color: var(--label-on-accent); cursor: pointer; white-space: nowrap;
+}
+.btn .icon { color: var(--icon-on-accent); }
+.btn[data-variant="Primary"]:active, .btn[data-variant="Primary"][data-state="Pressed"] { background: var(--fill-accent-pressed); }
+.btn[data-variant="Secondary"] { background: var(--fill-secondary); color: var(--label-primary); }
+.btn[data-variant="Secondary"] .icon { color: var(--icon-primary); }
+.btn[data-variant="Secondary"]:active, .btn[data-variant="Secondary"][data-state="Pressed"] { background: var(--fill-secondary-pressed); }
+.btn[data-variant="Text"] { background: transparent; color: var(--label-accent); }
+.btn[data-variant="Text"] .icon { color: var(--icon-accent); }
+.btn[data-variant="Text"]:active, .btn[data-variant="Text"][data-state="Pressed"] { background: var(--fill-secondary); }
+.btn[data-state="Disabled"] { color: var(--label-disabled); cursor: not-allowed; }
+.btn[data-variant="Primary"][data-state="Disabled"], .btn[data-variant="Secondary"][data-state="Disabled"] { background: var(--fill-disabled); }
+.btn[data-variant="Text"][data-state="Disabled"] { background: transparent; }
+.btn[data-state="Disabled"] .icon { color: var(--icon-disabled); }
+.btn:focus-visible, .icon-btn:focus-visible, .toggle:focus-visible, .checkbox:focus-visible, .segment:focus-visible { outline: 2px solid var(--border-focus); outline-offset: 2px; }
+
+/* ---------- Icon Button (Atom) ---------- */
+.icon-btn {
+  display: inline-flex; align-items: center; justify-content: center; width: var(--icon-button-size); height: var(--icon-button-size);
+  border-radius: var(--radius-full); border: 0; padding: 0; background: transparent; color: var(--icon-primary); cursor: pointer;
+}
+.icon-btn:active, .icon-btn[data-variant="Standard"][data-state="Pressed"] { background: var(--fill-secondary); }
+.icon-btn[data-variant="Filled"] { background: var(--fill-accent); color: var(--icon-on-accent); }
+.icon-btn[data-variant="Filled"]:active, .icon-btn[data-variant="Filled"][data-state="Pressed"] { background: var(--fill-accent-pressed); }
+.icon-btn[data-state="Disabled"] { opacity: var(--state-disabled-opacity); cursor: not-allowed; }
+.icon-btn[data-state="Disabled"]:active { background: transparent; }
+.icon-btn[data-variant="Filled"][data-state="Disabled"]:active { background: var(--fill-accent); }
+
+/* ---------- Toggle (Atom) ---------- */
+.toggle {
+  display: inline-flex; align-items: center; box-sizing: border-box; flex: none; border: 0; cursor: pointer;
+  width: var(--toggle-track-width); height: var(--toggle-track-height); border-radius: var(--radius-full);
+  padding: 0 var(--toggle-thumb-inset-on); background: var(--fill-accent); justify-content: flex-end;
+}
+.toggle__thumb { width: var(--toggle-thumb-size-on); height: var(--toggle-thumb-size-on); border-radius: var(--radius-full); background: var(--toggle-thumb-on); box-shadow: var(--elevation-1); }
+.toggle[aria-checked="false"] {
+  justify-content: flex-start; padding: 0 var(--toggle-thumb-inset-off); background: var(--fill-track-off);
+  box-shadow: inset 0 0 0 var(--toggle-track-border) var(--toggle-track-border-color);
+}
+.toggle[aria-checked="false"] .toggle__thumb { width: var(--toggle-thumb-size-off); height: var(--toggle-thumb-size-off); background: var(--toggle-thumb-off); }
+.toggle[data-state="Disabled"] { opacity: var(--state-disabled-opacity); cursor: not-allowed; }
+
+/* ---------- Checkbox (Atom) ---------- */
+.checkbox {
+  display: inline-flex; align-items: center; justify-content: center; box-sizing: border-box; flex: none; padding: 0; cursor: pointer;
+  width: var(--checkbox-size); height: var(--checkbox-size); border-radius: var(--checkbox-radius);
+  background: var(--fill-accent); color: var(--icon-on-accent); border: 0;
+}
+.checkbox[aria-checked="false"] { background: transparent; box-shadow: inset 0 0 0 var(--checkbox-border) var(--border-strong); }
+.checkbox[data-state="Disabled"] { opacity: var(--state-disabled-opacity); cursor: not-allowed; }
+
+/* ---------- Segment (Atom) + Segmented Control (Molecule) ---------- */
+.segmented {
+  display: flex; box-sizing: border-box; width: 343px; max-width: 100%; height: var(--segmented-control-height); padding: var(--segmented-control-padding);
+  border-radius: var(--segmented-control-radius-outer); background: var(--segmented-control-track);
+  box-shadow: inset 0 0 0 var(--segmented-control-border) var(--border-strong); overflow: hidden;
+}
+.segment {
+  flex: 1 1 0; display: inline-flex; align-items: center; justify-content: center; gap: var(--spacing-stack-gap); min-width: 0;
+  padding: 0 var(--spacing-stack-gap); border: 0; border-radius: var(--segmented-control-radius-inner); cursor: pointer;
+  background: var(--fill-transparent); color: var(--label-primary); font: inherit;
+  border-inline-end: var(--segmented-control-border) solid var(--border-strong);
+}
+.segment:last-child { border-inline-end: 0; }
+.segment[aria-checked="true"] { background: var(--segmented-control-selected-fill); }
+.segment .icon { color: var(--icon-primary); }
+.segment-solo { height: var(--segmented-control-height); width: 120px; border: var(--segmented-control-border) solid var(--border-strong); box-sizing: border-box; }
+
+/* ---------- Text Field (Molecule) ---------- */
+.field { display: flex; flex-direction: column; gap: var(--spacing-stack-gap); width: 343px; max-width: 100%; }
+.field[data-state="Disabled"] { opacity: var(--state-disabled-opacity); }
+.field__label { color: var(--label-secondary); }
+.field[data-state="Error"] .field__label, .field[data-state="Error"] .field__helper { color: var(--label-error); }
+.field__box {
+  position: relative; display: flex; align-items: center; gap: var(--spacing-stack-gap); box-sizing: border-box;
+  height: var(--text-field-height); padding: 0 var(--text-field-padding-x); border-radius: var(--text-field-radius);
+  background: var(--text-field-fill); box-shadow: inset 0 0 0 var(--text-field-border) var(--border-strong); color: var(--icon-secondary);
+}
+.field[data-state="Focused"] .field__box, .field:not([data-state="Disabled"]) .field__box:focus-within { box-shadow: inset 0 0 0 var(--text-field-border-focused) var(--border-focus); }
+.field[data-state="Error"] .field__box { box-shadow: inset 0 0 0 var(--text-field-border) var(--border-error); }
+.field[data-state="Disabled"] .field__box { box-shadow: inset 0 0 0 var(--text-field-border) var(--border-default); }
+.field__input { flex: 1 1 auto; min-width: 0; border: 0; outline: 0; padding: 0; background: transparent; color: var(--label-primary); text-align: start; }
+.field__floating {
+  position: absolute; inset-inline-start: var(--text-field-label-inset); top: 0; transform: translateY(-50%);
+  padding: 0 var(--text-field-label-padding); background: var(--surface-screen); color: var(--label-accent);
+}
+.field:not([data-state="Focused"]):not(:focus-within) .field__floating { color: var(--label-secondary); }
+.field[data-state="Error"] .field__floating { color: var(--label-error); }
+.field__helper { color: var(--label-secondary); }
+.field__clear { display: inline-flex; border: 0; padding: 0; background: transparent; color: inherit; cursor: pointer; }
+
+/* ---------- List Item (Molecule) ---------- */
+.list-item { display: flex; flex-direction: column; background: var(--list-item-fill); width: 375px; max-width: 100%; }
+.list-item__row {
+  display: flex; align-items: center; gap: var(--spacing-inline-gap); box-sizing: border-box; min-height: var(--list-item-min-height);
+  padding: var(--list-item-padding-y) var(--list-item-padding-x); color: var(--icon-primary);
+}
+button.list-item__row { border: 0; background: transparent; font: inherit; text-align: start; cursor: pointer; width: 100%; }
+button.list-item__row:active { background: var(--fill-secondary); }
+.list-item__text { display: flex; flex-direction: column; gap: var(--spacing-tight); flex: 1 1 auto; min-width: 0; text-align: start; }
+.list-item__title { color: var(--label-primary); }
+.list-item__support, .list-item__value { color: var(--label-secondary); }
+.list-item__chevron { color: var(--icon-secondary); }
+.list-item__sep { display: flex; height: 1px; }
+.list-item__sep::before { content: ""; width: var(--list-item-padding-x); flex: none; }
+.list-item__sep span { flex: 1 1 auto; background: var(--separator-default); }
+.list-group { display: flex; flex-direction: column; margin: 0 var(--list-group-inset); border-radius: var(--list-group-radius); overflow: hidden; }
+.list-group .list-item { width: auto; }
+
+/* ---------- Top App Bar (Organism) ---------- */
+.top-bar { display: flex; flex-direction: column; background: var(--top-app-bar-fill); width: 375px; max-width: 100%; }
+.top-bar__bar { position: relative; display: flex; align-items: center; height: var(--top-app-bar-height); padding: 0 var(--top-app-bar-padding-x); box-sizing: border-box; }
+.top-bar__start, .top-bar__end { flex: 1 1 0; display: flex; align-items: center; min-width: 0; }
+.top-bar__end { justify-content: flex-end; }
+.top-bar__back { display: inline-flex; align-items: center; gap: var(--spacing-tight); border: 0; padding: 0; background: transparent; color: var(--label-accent); cursor: pointer; }
+.top-bar__back .icon { color: var(--icon-accent); }
+.top-bar__title-ios { color: var(--label-primary); white-space: nowrap; }
+.top-bar__title-android { flex: 1 1 auto; min-width: 0; padding-inline-start: var(--top-app-bar-title-inset); color: var(--label-primary); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.top-bar__large { padding: 0 var(--spacing-screen-margin) var(--spacing-stack-gap); color: var(--label-primary); }
+[dir="rtl"] .top-bar__back .icon, [dir="rtl"] .list-item__chevron { transform: none; }
+
+/* ---------- Settings Screen (Pattern) ---------- */
+.screen { display: flex; flex-direction: column; gap: var(--spacing-section-gap); background: var(--surface-screen); width: 375px; max-width: 100%; padding-bottom: var(--spacing-section-gap); }
+.screen__section { display: flex; flex-direction: column; gap: var(--spacing-stack-gap); }
+.screen__pad { padding: 0 var(--spacing-screen-margin); }
+.screen__caption { padding: 0 calc(var(--spacing-screen-margin) + var(--list-group-inset)); color: var(--label-secondary); text-transform: none; }
+.screen__full-btn .btn { flex: 1 1 auto; }

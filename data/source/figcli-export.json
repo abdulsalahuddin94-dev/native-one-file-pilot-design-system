@@ -1,0 +1,5036 @@
+{
+ "file": "Native One File Pilot Design System",
+ "fileKey": "a2EAdCeKeaXN679TMNlIev",
+ "collections": {
+  "Primitives": {
+   "modes": [
+    "Value"
+   ],
+   "default": "Value"
+  },
+  "Color": {
+   "modes": [
+    "Light",
+    "Dark"
+   ],
+   "default": "Light"
+  },
+  "Language": {
+   "modes": [
+    "EN",
+    "AR"
+   ],
+   "default": "EN"
+  },
+  "OS": {
+   "modes": [
+    "iOS",
+    "Android"
+   ],
+   "default": "iOS"
+  },
+  "Component Specific": {
+   "modes": [
+    "Value"
+   ],
+   "default": "Value"
+  }
+ },
+ "variables": {
+  "Primitives::Color/Brand/50": {
+   "collection": "Primitives",
+   "name": "Color/Brand/50",
+   "type": "color",
+   "values": {
+    "Value": "#FDFCE7"
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Color/Brand/100": {
+   "collection": "Primitives",
+   "name": "Color/Brand/100",
+   "type": "color",
+   "values": {
+    "Value": "#FDFCC3"
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Color/Brand/200": {
+   "collection": "Primitives",
+   "name": "Color/Brand/200",
+   "type": "color",
+   "values": {
+    "Value": "#FDF58A"
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Color/Brand/300": {
+   "collection": "Primitives",
+   "name": "Color/Brand/300",
+   "type": "color",
+   "values": {
+    "Value": "#FDE744"
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Color/Brand/400": {
+   "collection": "Primitives",
+   "name": "Color/Brand/400",
+   "type": "color",
+   "values": {
+    "Value": "#FDD501"
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Color/Brand/500": {
+   "collection": "Primitives",
+   "name": "Color/Brand/500",
+   "type": "color",
+   "values": {
+    "Value": "#ECBB00"
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Color/Brand/600": {
+   "collection": "Primitives",
+   "name": "Color/Brand/600",
+   "type": "color",
+   "values": {
+    "Value": "#CC9000"
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Color/Brand/700": {
+   "collection": "Primitives",
+   "name": "Color/Brand/700",
+   "type": "color",
+   "values": {
+    "Value": "#A36600"
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Color/Brand/800": {
+   "collection": "Primitives",
+   "name": "Color/Brand/800",
+   "type": "color",
+   "values": {
+    "Value": "#874F01"
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Color/Brand/900": {
+   "collection": "Primitives",
+   "name": "Color/Brand/900",
+   "type": "color",
+   "values": {
+    "Value": "#724009"
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Color/Brand/950": {
+   "collection": "Primitives",
+   "name": "Color/Brand/950",
+   "type": "color",
+   "values": {
+    "Value": "#422002"
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Color/Neutral/0": {
+   "collection": "Primitives",
+   "name": "Color/Neutral/0",
+   "type": "color",
+   "values": {
+    "Value": "#FFFFFF"
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Color/Neutral/50": {
+   "collection": "Primitives",
+   "name": "Color/Neutral/50",
+   "type": "color",
+   "values": {
+    "Value": "#F2F2F7"
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Color/Neutral/100": {
+   "collection": "Primitives",
+   "name": "Color/Neutral/100",
+   "type": "color",
+   "values": {
+    "Value": "#E5E5EA"
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Color/Neutral/200": {
+   "collection": "Primitives",
+   "name": "Color/Neutral/200",
+   "type": "color",
+   "values": {
+    "Value": "#D1D1D6"
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Color/Neutral/300": {
+   "collection": "Primitives",
+   "name": "Color/Neutral/300",
+   "type": "color",
+   "values": {
+    "Value": "#C7C7CC"
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Color/Neutral/400": {
+   "collection": "Primitives",
+   "name": "Color/Neutral/400",
+   "type": "color",
+   "values": {
+    "Value": "#AEAEB2"
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Color/Neutral/500": {
+   "collection": "Primitives",
+   "name": "Color/Neutral/500",
+   "type": "color",
+   "values": {
+    "Value": "#8E8E93"
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Color/Neutral/600": {
+   "collection": "Primitives",
+   "name": "Color/Neutral/600",
+   "type": "color",
+   "values": {
+    "Value": "#636366"
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Color/Neutral/700": {
+   "collection": "Primitives",
+   "name": "Color/Neutral/700",
+   "type": "color",
+   "values": {
+    "Value": "#48484A"
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Color/Neutral/800": {
+   "collection": "Primitives",
+   "name": "Color/Neutral/800",
+   "type": "color",
+   "values": {
+    "Value": "#3A3A3C"
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Color/Neutral/850": {
+   "collection": "Primitives",
+   "name": "Color/Neutral/850",
+   "type": "color",
+   "values": {
+    "Value": "#2C2C2E"
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Color/Neutral/900": {
+   "collection": "Primitives",
+   "name": "Color/Neutral/900",
+   "type": "color",
+   "values": {
+    "Value": "#1C1C1E"
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Color/Neutral/950": {
+   "collection": "Primitives",
+   "name": "Color/Neutral/950",
+   "type": "color",
+   "values": {
+    "Value": "#111113"
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Color/Neutral/1000": {
+   "collection": "Primitives",
+   "name": "Color/Neutral/1000",
+   "type": "color",
+   "values": {
+    "Value": "#000000"
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Color/Red/50": {
+   "collection": "Primitives",
+   "name": "Color/Red/50",
+   "type": "color",
+   "values": {
+    "Value": "#FEF2F2"
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Color/Red/400": {
+   "collection": "Primitives",
+   "name": "Color/Red/400",
+   "type": "color",
+   "values": {
+    "Value": "#F87171"
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Color/Red/600": {
+   "collection": "Primitives",
+   "name": "Color/Red/600",
+   "type": "color",
+   "values": {
+    "Value": "#DC2626"
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Color/Red/700": {
+   "collection": "Primitives",
+   "name": "Color/Red/700",
+   "type": "color",
+   "values": {
+    "Value": "#B91C1C"
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Color/Green/50": {
+   "collection": "Primitives",
+   "name": "Color/Green/50",
+   "type": "color",
+   "values": {
+    "Value": "#F0FDF4"
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Color/Green/400": {
+   "collection": "Primitives",
+   "name": "Color/Green/400",
+   "type": "color",
+   "values": {
+    "Value": "#4ADE80"
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Color/Green/600": {
+   "collection": "Primitives",
+   "name": "Color/Green/600",
+   "type": "color",
+   "values": {
+    "Value": "#16A34A"
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Color/Green/700": {
+   "collection": "Primitives",
+   "name": "Color/Green/700",
+   "type": "color",
+   "values": {
+    "Value": "#15803D"
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Color/Black Alpha/20": {
+   "collection": "Primitives",
+   "name": "Color/Black Alpha/20",
+   "type": "color",
+   "values": {
+    "Value": "#00000033"
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Color/Black Alpha/40": {
+   "collection": "Primitives",
+   "name": "Color/Black Alpha/40",
+   "type": "color",
+   "values": {
+    "Value": "#00000066"
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Color/Transparent": {
+   "collection": "Primitives",
+   "name": "Color/Transparent",
+   "type": "color",
+   "values": {
+    "Value": "#00000000"
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Number/0": {
+   "collection": "Primitives",
+   "name": "Number/0",
+   "type": "number",
+   "values": {
+    "Value": 0
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Number/1": {
+   "collection": "Primitives",
+   "name": "Number/1",
+   "type": "number",
+   "values": {
+    "Value": 1
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Number/2": {
+   "collection": "Primitives",
+   "name": "Number/2",
+   "type": "number",
+   "values": {
+    "Value": 2
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Number/4": {
+   "collection": "Primitives",
+   "name": "Number/4",
+   "type": "number",
+   "values": {
+    "Value": 4
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Number/6": {
+   "collection": "Primitives",
+   "name": "Number/6",
+   "type": "number",
+   "values": {
+    "Value": 6
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Number/7": {
+   "collection": "Primitives",
+   "name": "Number/7",
+   "type": "number",
+   "values": {
+    "Value": 7
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Number/8": {
+   "collection": "Primitives",
+   "name": "Number/8",
+   "type": "number",
+   "values": {
+    "Value": 8
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Number/9": {
+   "collection": "Primitives",
+   "name": "Number/9",
+   "type": "number",
+   "values": {
+    "Value": 9
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Number/10": {
+   "collection": "Primitives",
+   "name": "Number/10",
+   "type": "number",
+   "values": {
+    "Value": 10
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Number/11": {
+   "collection": "Primitives",
+   "name": "Number/11",
+   "type": "number",
+   "values": {
+    "Value": 11
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Number/12": {
+   "collection": "Primitives",
+   "name": "Number/12",
+   "type": "number",
+   "values": {
+    "Value": 12
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Number/16": {
+   "collection": "Primitives",
+   "name": "Number/16",
+   "type": "number",
+   "values": {
+    "Value": 16
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Number/18": {
+   "collection": "Primitives",
+   "name": "Number/18",
+   "type": "number",
+   "values": {
+    "Value": 18
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Number/20": {
+   "collection": "Primitives",
+   "name": "Number/20",
+   "type": "number",
+   "values": {
+    "Value": 20
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Number/22": {
+   "collection": "Primitives",
+   "name": "Number/22",
+   "type": "number",
+   "values": {
+    "Value": 22
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Number/24": {
+   "collection": "Primitives",
+   "name": "Number/24",
+   "type": "number",
+   "values": {
+    "Value": 24
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Number/27": {
+   "collection": "Primitives",
+   "name": "Number/27",
+   "type": "number",
+   "values": {
+    "Value": 27
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Number/28": {
+   "collection": "Primitives",
+   "name": "Number/28",
+   "type": "number",
+   "values": {
+    "Value": 28
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Number/31": {
+   "collection": "Primitives",
+   "name": "Number/31",
+   "type": "number",
+   "values": {
+    "Value": 31
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Number/32": {
+   "collection": "Primitives",
+   "name": "Number/32",
+   "type": "number",
+   "values": {
+    "Value": 32
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Number/35": {
+   "collection": "Primitives",
+   "name": "Number/35",
+   "type": "number",
+   "values": {
+    "Value": 35
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Number/36": {
+   "collection": "Primitives",
+   "name": "Number/36",
+   "type": "number",
+   "values": {
+    "Value": 36
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Number/40": {
+   "collection": "Primitives",
+   "name": "Number/40",
+   "type": "number",
+   "values": {
+    "Value": 40
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Number/44": {
+   "collection": "Primitives",
+   "name": "Number/44",
+   "type": "number",
+   "values": {
+    "Value": 44
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Number/48": {
+   "collection": "Primitives",
+   "name": "Number/48",
+   "type": "number",
+   "values": {
+    "Value": 48
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Number/50": {
+   "collection": "Primitives",
+   "name": "Number/50",
+   "type": "number",
+   "values": {
+    "Value": 50
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Number/51": {
+   "collection": "Primitives",
+   "name": "Number/51",
+   "type": "number",
+   "values": {
+    "Value": 51
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Number/52": {
+   "collection": "Primitives",
+   "name": "Number/52",
+   "type": "number",
+   "values": {
+    "Value": 52
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Number/56": {
+   "collection": "Primitives",
+   "name": "Number/56",
+   "type": "number",
+   "values": {
+    "Value": 56
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Number/64": {
+   "collection": "Primitives",
+   "name": "Number/64",
+   "type": "number",
+   "values": {
+    "Value": 64
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Primitives::Number/999": {
+   "collection": "Primitives",
+   "name": "Number/999",
+   "type": "number",
+   "values": {
+    "Value": 999
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {}
+  },
+  "Color::Background/Primary": {
+   "collection": "Color",
+   "name": "Background/Primary",
+   "type": "color",
+   "values": {
+    "Light": {
+     "alias": "Primitives::Color/Neutral/0"
+    },
+    "Dark": {
+     "alias": "Primitives::Color/Neutral/1000"
+    }
+   },
+   "scopes": [
+    "FRAME_FILL",
+    "SHAPE_FILL"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "MaterialTheme.colorScheme.surface",
+    "iOS": "Color(.systemBackground)"
+   }
+  },
+  "Color::Background/Grouped": {
+   "collection": "Color",
+   "name": "Background/Grouped",
+   "type": "color",
+   "values": {
+    "Light": {
+     "alias": "Primitives::Color/Neutral/50"
+    },
+    "Dark": {
+     "alias": "Primitives::Color/Neutral/1000"
+    }
+   },
+   "scopes": [
+    "FRAME_FILL",
+    "SHAPE_FILL"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "MaterialTheme.colorScheme.surfaceContainerLowest",
+    "iOS": "Color(.systemGroupedBackground)"
+   }
+  },
+  "Color::Background/Elevated": {
+   "collection": "Color",
+   "name": "Background/Elevated",
+   "type": "color",
+   "values": {
+    "Light": {
+     "alias": "Primitives::Color/Neutral/0"
+    },
+    "Dark": {
+     "alias": "Primitives::Color/Neutral/900"
+    }
+   },
+   "scopes": [
+    "FRAME_FILL",
+    "SHAPE_FILL"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "MaterialTheme.colorScheme.surfaceContainerLow",
+    "iOS": "Color(.secondarySystemGroupedBackground)"
+   }
+  },
+  "Color::Surface/Container": {
+   "collection": "Color",
+   "name": "Surface/Container",
+   "type": "color",
+   "values": {
+    "Light": {
+     "alias": "Primitives::Color/Neutral/50"
+    },
+    "Dark": {
+     "alias": "Primitives::Color/Neutral/900"
+    }
+   },
+   "scopes": [
+    "FRAME_FILL",
+    "SHAPE_FILL"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "MaterialTheme.colorScheme.surfaceContainer",
+    "iOS": "Color(.secondarySystemBackground)"
+   }
+  },
+  "Color::Surface/Container High": {
+   "collection": "Color",
+   "name": "Surface/Container High",
+   "type": "color",
+   "values": {
+    "Light": {
+     "alias": "Primitives::Color/Neutral/100"
+    },
+    "Dark": {
+     "alias": "Primitives::Color/Neutral/850"
+    }
+   },
+   "scopes": [
+    "FRAME_FILL",
+    "SHAPE_FILL"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "MaterialTheme.colorScheme.surfaceContainerHigh",
+    "iOS": "Color(.tertiarySystemBackground)"
+   }
+  },
+  "Color::Label/Primary": {
+   "collection": "Color",
+   "name": "Label/Primary",
+   "type": "color",
+   "values": {
+    "Light": {
+     "alias": "Primitives::Color/Neutral/1000"
+    },
+    "Dark": {
+     "alias": "Primitives::Color/Neutral/0"
+    }
+   },
+   "scopes": [
+    "TEXT_FILL"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "MaterialTheme.colorScheme.onSurface",
+    "iOS": "Color(.label)"
+   }
+  },
+  "Color::Label/Secondary": {
+   "collection": "Color",
+   "name": "Label/Secondary",
+   "type": "color",
+   "values": {
+    "Light": {
+     "alias": "Primitives::Color/Neutral/600"
+    },
+    "Dark": {
+     "alias": "Primitives::Color/Neutral/400"
+    }
+   },
+   "scopes": [
+    "TEXT_FILL"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "MaterialTheme.colorScheme.onSurfaceVariant",
+    "iOS": "Color(.secondaryLabel)"
+   }
+  },
+  "Color::Label/Tertiary": {
+   "collection": "Color",
+   "name": "Label/Tertiary",
+   "type": "color",
+   "values": {
+    "Light": {
+     "alias": "Primitives::Color/Neutral/500"
+    },
+    "Dark": {
+     "alias": "Primitives::Color/Neutral/500"
+    }
+   },
+   "scopes": [
+    "TEXT_FILL"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "MaterialTheme.colorScheme.outline",
+    "iOS": "Color(.tertiaryLabel)"
+   }
+  },
+  "Color::Label/Disabled": {
+   "collection": "Color",
+   "name": "Label/Disabled",
+   "type": "color",
+   "values": {
+    "Light": {
+     "alias": "Primitives::Color/Neutral/300"
+    },
+    "Dark": {
+     "alias": "Primitives::Color/Neutral/700"
+    }
+   },
+   "scopes": [
+    "TEXT_FILL"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "MaterialTheme.colorScheme.onSurface.copy(alpha = 0.38f)",
+    "iOS": "Color(.quaternaryLabel)"
+   }
+  },
+  "Color::Label/On Accent": {
+   "collection": "Color",
+   "name": "Label/On Accent",
+   "type": "color",
+   "values": {
+    "Light": {
+     "alias": "Primitives::Color/Neutral/950"
+    },
+    "Dark": {
+     "alias": "Primitives::Color/Neutral/950"
+    }
+   },
+   "scopes": [
+    "TEXT_FILL"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "MaterialTheme.colorScheme.onPrimary",
+    "iOS": "Color(\"OnAccent\")"
+   }
+  },
+  "Color::Label/Accent": {
+   "collection": "Color",
+   "name": "Label/Accent",
+   "type": "color",
+   "values": {
+    "Light": {
+     "alias": "Primitives::Color/Brand/700"
+    },
+    "Dark": {
+     "alias": "Primitives::Color/Brand/400"
+    }
+   },
+   "scopes": [
+    "TEXT_FILL"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "MaterialTheme.colorScheme.primary",
+    "iOS": "Color.accentColor"
+   }
+  },
+  "Color::Label/Error": {
+   "collection": "Color",
+   "name": "Label/Error",
+   "type": "color",
+   "values": {
+    "Light": {
+     "alias": "Primitives::Color/Red/700"
+    },
+    "Dark": {
+     "alias": "Primitives::Color/Red/400"
+    }
+   },
+   "scopes": [
+    "TEXT_FILL"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "MaterialTheme.colorScheme.error",
+    "iOS": "Color(.systemRed)"
+   }
+  },
+  "Color::Fill/Accent": {
+   "collection": "Color",
+   "name": "Fill/Accent",
+   "type": "color",
+   "values": {
+    "Light": {
+     "alias": "Primitives::Color/Brand/400"
+    },
+    "Dark": {
+     "alias": "Primitives::Color/Brand/400"
+    }
+   },
+   "scopes": [
+    "FRAME_FILL",
+    "SHAPE_FILL"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "MaterialTheme.colorScheme.primaryContainer",
+    "iOS": "Color(\"AccentFill\")"
+   }
+  },
+  "Color::Fill/Accent Pressed": {
+   "collection": "Color",
+   "name": "Fill/Accent Pressed",
+   "type": "color",
+   "values": {
+    "Light": {
+     "alias": "Primitives::Color/Brand/500"
+    },
+    "Dark": {
+     "alias": "Primitives::Color/Brand/300"
+    }
+   },
+   "scopes": [
+    "FRAME_FILL",
+    "SHAPE_FILL"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "MaterialTheme.colorScheme.primaryContainer",
+    "iOS": "Color(\"AccentFillPressed\")"
+   }
+  },
+  "Color::Fill/Secondary": {
+   "collection": "Color",
+   "name": "Fill/Secondary",
+   "type": "color",
+   "values": {
+    "Light": {
+     "alias": "Primitives::Color/Neutral/100"
+    },
+    "Dark": {
+     "alias": "Primitives::Color/Neutral/850"
+    }
+   },
+   "scopes": [
+    "FRAME_FILL",
+    "SHAPE_FILL"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "MaterialTheme.colorScheme.secondaryContainer",
+    "iOS": "Color(.secondarySystemFill)"
+   }
+  },
+  "Color::Fill/Secondary Pressed": {
+   "collection": "Color",
+   "name": "Fill/Secondary Pressed",
+   "type": "color",
+   "values": {
+    "Light": {
+     "alias": "Primitives::Color/Neutral/200"
+    },
+    "Dark": {
+     "alias": "Primitives::Color/Neutral/800"
+    }
+   },
+   "scopes": [
+    "FRAME_FILL",
+    "SHAPE_FILL"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "MaterialTheme.colorScheme.secondaryContainer",
+    "iOS": "Color(.systemFill)"
+   }
+  },
+  "Color::Fill/Disabled": {
+   "collection": "Color",
+   "name": "Fill/Disabled",
+   "type": "color",
+   "values": {
+    "Light": {
+     "alias": "Primitives::Color/Neutral/100"
+    },
+    "Dark": {
+     "alias": "Primitives::Color/Neutral/850"
+    }
+   },
+   "scopes": [
+    "FRAME_FILL",
+    "SHAPE_FILL"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "MaterialTheme.colorScheme.onSurface.copy(alpha = 0.12f)",
+    "iOS": "Color(.quaternarySystemFill)"
+   }
+  },
+  "Color::Fill/Track Off": {
+   "collection": "Color",
+   "name": "Fill/Track Off",
+   "type": "color",
+   "values": {
+    "Light": {
+     "alias": "Primitives::Color/Neutral/100"
+    },
+    "Dark": {
+     "alias": "Primitives::Color/Neutral/800"
+    }
+   },
+   "scopes": [
+    "FRAME_FILL",
+    "SHAPE_FILL"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "MaterialTheme.colorScheme.surfaceContainerHighest",
+    "iOS": "Color(.systemFill)"
+   }
+  },
+  "Color::Fill/Thumb": {
+   "collection": "Color",
+   "name": "Fill/Thumb",
+   "type": "color",
+   "values": {
+    "Light": {
+     "alias": "Primitives::Color/Neutral/0"
+    },
+    "Dark": {
+     "alias": "Primitives::Color/Neutral/0"
+    }
+   },
+   "scopes": [
+    "FRAME_FILL",
+    "SHAPE_FILL"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "MaterialTheme.colorScheme.onPrimary",
+    "iOS": "Color.white"
+   }
+  },
+  "Color::Fill/Thumb Off": {
+   "collection": "Color",
+   "name": "Fill/Thumb Off",
+   "type": "color",
+   "values": {
+    "Light": {
+     "alias": "Primitives::Color/Neutral/500"
+    },
+    "Dark": {
+     "alias": "Primitives::Color/Neutral/500"
+    }
+   },
+   "scopes": [
+    "FRAME_FILL",
+    "SHAPE_FILL"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "MaterialTheme.colorScheme.outline",
+    "iOS": "Color.white"
+   }
+  },
+  "Color::Fill/Segment Selected": {
+   "collection": "Color",
+   "name": "Fill/Segment Selected",
+   "type": "color",
+   "values": {
+    "Light": {
+     "alias": "Primitives::Color/Neutral/0"
+    },
+    "Dark": {
+     "alias": "Primitives::Color/Neutral/700"
+    }
+   },
+   "scopes": [
+    "FRAME_FILL",
+    "SHAPE_FILL"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "MaterialTheme.colorScheme.secondaryContainer",
+    "iOS": "Color(.systemBackground)"
+   }
+  },
+  "Color::Icon/Primary": {
+   "collection": "Color",
+   "name": "Icon/Primary",
+   "type": "color",
+   "values": {
+    "Light": {
+     "alias": "Primitives::Color/Neutral/1000"
+    },
+    "Dark": {
+     "alias": "Primitives::Color/Neutral/0"
+    }
+   },
+   "scopes": [
+    "SHAPE_FILL",
+    "STROKE_COLOR"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "MaterialTheme.colorScheme.onSurface",
+    "iOS": "Color(.label)"
+   }
+  },
+  "Color::Icon/Secondary": {
+   "collection": "Color",
+   "name": "Icon/Secondary",
+   "type": "color",
+   "values": {
+    "Light": {
+     "alias": "Primitives::Color/Neutral/500"
+    },
+    "Dark": {
+     "alias": "Primitives::Color/Neutral/500"
+    }
+   },
+   "scopes": [
+    "SHAPE_FILL",
+    "STROKE_COLOR"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "MaterialTheme.colorScheme.onSurfaceVariant",
+    "iOS": "Color(.secondaryLabel)"
+   }
+  },
+  "Color::Icon/Accent": {
+   "collection": "Color",
+   "name": "Icon/Accent",
+   "type": "color",
+   "values": {
+    "Light": {
+     "alias": "Primitives::Color/Brand/700"
+    },
+    "Dark": {
+     "alias": "Primitives::Color/Brand/400"
+    }
+   },
+   "scopes": [
+    "SHAPE_FILL",
+    "STROKE_COLOR"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "MaterialTheme.colorScheme.primary",
+    "iOS": "Color.accentColor"
+   }
+  },
+  "Color::Icon/On Accent": {
+   "collection": "Color",
+   "name": "Icon/On Accent",
+   "type": "color",
+   "values": {
+    "Light": {
+     "alias": "Primitives::Color/Neutral/950"
+    },
+    "Dark": {
+     "alias": "Primitives::Color/Neutral/950"
+    }
+   },
+   "scopes": [
+    "SHAPE_FILL",
+    "STROKE_COLOR"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "MaterialTheme.colorScheme.onPrimaryContainer",
+    "iOS": "Color(\"OnAccent\")"
+   }
+  },
+  "Color::Icon/Disabled": {
+   "collection": "Color",
+   "name": "Icon/Disabled",
+   "type": "color",
+   "values": {
+    "Light": {
+     "alias": "Primitives::Color/Neutral/300"
+    },
+    "Dark": {
+     "alias": "Primitives::Color/Neutral/700"
+    }
+   },
+   "scopes": [
+    "SHAPE_FILL",
+    "STROKE_COLOR"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "MaterialTheme.colorScheme.onSurface.copy(alpha = 0.38f)",
+    "iOS": "Color(.quaternaryLabel)"
+   }
+  },
+  "Color::Border/Default": {
+   "collection": "Color",
+   "name": "Border/Default",
+   "type": "color",
+   "values": {
+    "Light": {
+     "alias": "Primitives::Color/Neutral/200"
+    },
+    "Dark": {
+     "alias": "Primitives::Color/Neutral/700"
+    }
+   },
+   "scopes": [
+    "STROKE_COLOR"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "MaterialTheme.colorScheme.outlineVariant",
+    "iOS": "Color(.separator)"
+   }
+  },
+  "Color::Border/Strong": {
+   "collection": "Color",
+   "name": "Border/Strong",
+   "type": "color",
+   "values": {
+    "Light": {
+     "alias": "Primitives::Color/Neutral/500"
+    },
+    "Dark": {
+     "alias": "Primitives::Color/Neutral/500"
+    }
+   },
+   "scopes": [
+    "STROKE_COLOR"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "MaterialTheme.colorScheme.outline",
+    "iOS": "Color(.opaqueSeparator)"
+   }
+  },
+  "Color::Border/Focus": {
+   "collection": "Color",
+   "name": "Border/Focus",
+   "type": "color",
+   "values": {
+    "Light": {
+     "alias": "Primitives::Color/Brand/700"
+    },
+    "Dark": {
+     "alias": "Primitives::Color/Brand/400"
+    }
+   },
+   "scopes": [
+    "STROKE_COLOR"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "MaterialTheme.colorScheme.primary",
+    "iOS": "Color.accentColor"
+   }
+  },
+  "Color::Border/Error": {
+   "collection": "Color",
+   "name": "Border/Error",
+   "type": "color",
+   "values": {
+    "Light": {
+     "alias": "Primitives::Color/Red/600"
+    },
+    "Dark": {
+     "alias": "Primitives::Color/Red/400"
+    }
+   },
+   "scopes": [
+    "STROKE_COLOR"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "MaterialTheme.colorScheme.error",
+    "iOS": "Color(.systemRed)"
+   }
+  },
+  "Color::Separator/Default": {
+   "collection": "Color",
+   "name": "Separator/Default",
+   "type": "color",
+   "values": {
+    "Light": {
+     "alias": "Primitives::Color/Neutral/200"
+    },
+    "Dark": {
+     "alias": "Primitives::Color/Neutral/800"
+    }
+   },
+   "scopes": [
+    "FRAME_FILL",
+    "SHAPE_FILL",
+    "STROKE_COLOR"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "MaterialTheme.colorScheme.outlineVariant",
+    "iOS": "Color(.separator)"
+   }
+  },
+  "Color::Shadow/Default": {
+   "collection": "Color",
+   "name": "Shadow/Default",
+   "type": "color",
+   "values": {
+    "Light": {
+     "alias": "Primitives::Color/Black Alpha/20"
+    },
+    "Dark": {
+     "alias": "Primitives::Color/Black Alpha/40"
+    }
+   },
+   "scopes": [
+    "EFFECT_COLOR"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "MaterialTheme.colorScheme.shadow",
+    "iOS": "Color.black.opacity(0.2)"
+   }
+  },
+  "Color::Shadow/None": {
+   "collection": "Color",
+   "name": "Shadow/None",
+   "type": "color",
+   "values": {
+    "Light": {
+     "alias": "Primitives::Color/Transparent"
+    },
+    "Dark": {
+     "alias": "Primitives::Color/Transparent"
+    }
+   },
+   "scopes": [
+    "EFFECT_COLOR"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "Color.Transparent",
+    "iOS": "Color.clear"
+   }
+  },
+  "Language::Font Family/iOS": {
+   "collection": "Language",
+   "name": "Font Family/iOS",
+   "type": "string",
+   "values": {
+    "EN": "SF Pro",
+    "AR": "Noto Sans Arabic"
+   },
+   "scopes": [
+    "FONT_FAMILY"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "iOS": "Font.Design.default"
+   }
+  },
+  "Language::Font Family/Android": {
+   "collection": "Language",
+   "name": "Font Family/Android",
+   "type": "string",
+   "values": {
+    "EN": "Roboto",
+    "AR": "Noto Sans Arabic"
+   },
+   "scopes": [
+    "FONT_FAMILY"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "FontFamily.Default"
+   }
+  },
+  "Language::iOS/Large Title/Size": {
+   "collection": "Language",
+   "name": "iOS/Large Title/Size",
+   "type": "number",
+   "values": {
+    "EN": 34,
+    "AR": 34
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "iOS": "Font.TextStyle.largeTitle"
+   }
+  },
+  "Language::iOS/Large Title/Line Height": {
+   "collection": "Language",
+   "name": "iOS/Large Title/Line Height",
+   "type": "number",
+   "values": {
+    "EN": 41,
+    "AR": 52
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "iOS": "Font.TextStyle.largeTitle.lineHeight"
+   }
+  },
+  "Language::iOS/Title 2/Size": {
+   "collection": "Language",
+   "name": "iOS/Title 2/Size",
+   "type": "number",
+   "values": {
+    "EN": 22,
+    "AR": 22
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "iOS": "Font.TextStyle.title2"
+   }
+  },
+  "Language::iOS/Title 2/Line Height": {
+   "collection": "Language",
+   "name": "iOS/Title 2/Line Height",
+   "type": "number",
+   "values": {
+    "EN": 28,
+    "AR": 32
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "iOS": "Font.TextStyle.title2.lineHeight"
+   }
+  },
+  "Language::iOS/Headline/Size": {
+   "collection": "Language",
+   "name": "iOS/Headline/Size",
+   "type": "number",
+   "values": {
+    "EN": 17,
+    "AR": 17
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "iOS": "Font.TextStyle.headline"
+   }
+  },
+  "Language::iOS/Headline/Line Height": {
+   "collection": "Language",
+   "name": "iOS/Headline/Line Height",
+   "type": "number",
+   "values": {
+    "EN": 22,
+    "AR": 26
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "iOS": "Font.TextStyle.headline.lineHeight"
+   }
+  },
+  "Language::iOS/Body/Size": {
+   "collection": "Language",
+   "name": "iOS/Body/Size",
+   "type": "number",
+   "values": {
+    "EN": 17,
+    "AR": 17
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "iOS": "Font.TextStyle.body"
+   }
+  },
+  "Language::iOS/Body/Line Height": {
+   "collection": "Language",
+   "name": "iOS/Body/Line Height",
+   "type": "number",
+   "values": {
+    "EN": 22,
+    "AR": 26
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "iOS": "Font.TextStyle.body.lineHeight"
+   }
+  },
+  "Language::iOS/Subheadline/Size": {
+   "collection": "Language",
+   "name": "iOS/Subheadline/Size",
+   "type": "number",
+   "values": {
+    "EN": 15,
+    "AR": 15
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "iOS": "Font.TextStyle.subheadline"
+   }
+  },
+  "Language::iOS/Subheadline/Line Height": {
+   "collection": "Language",
+   "name": "iOS/Subheadline/Line Height",
+   "type": "number",
+   "values": {
+    "EN": 20,
+    "AR": 22
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "iOS": "Font.TextStyle.subheadline.lineHeight"
+   }
+  },
+  "Language::iOS/Footnote/Size": {
+   "collection": "Language",
+   "name": "iOS/Footnote/Size",
+   "type": "number",
+   "values": {
+    "EN": 13,
+    "AR": 13
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "iOS": "Font.TextStyle.footnote"
+   }
+  },
+  "Language::iOS/Footnote/Line Height": {
+   "collection": "Language",
+   "name": "iOS/Footnote/Line Height",
+   "type": "number",
+   "values": {
+    "EN": 18,
+    "AR": 20
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "iOS": "Font.TextStyle.footnote.lineHeight"
+   }
+  },
+  "Language::iOS/Caption 1/Size": {
+   "collection": "Language",
+   "name": "iOS/Caption 1/Size",
+   "type": "number",
+   "values": {
+    "EN": 12,
+    "AR": 12
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "iOS": "Font.TextStyle.caption1"
+   }
+  },
+  "Language::iOS/Caption 1/Line Height": {
+   "collection": "Language",
+   "name": "iOS/Caption 1/Line Height",
+   "type": "number",
+   "values": {
+    "EN": 16,
+    "AR": 18
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "iOS": "Font.TextStyle.caption1.lineHeight"
+   }
+  },
+  "Language::Android/Headline Small/Size": {
+   "collection": "Language",
+   "name": "Android/Headline Small/Size",
+   "type": "number",
+   "values": {
+    "EN": 24,
+    "AR": 24
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "md.sys.typescale.headline-small.size"
+   }
+  },
+  "Language::Android/Headline Small/Line Height": {
+   "collection": "Language",
+   "name": "Android/Headline Small/Line Height",
+   "type": "number",
+   "values": {
+    "EN": 32,
+    "AR": 36
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "md.sys.typescale.headline-small.line-height"
+   }
+  },
+  "Language::Android/Title Large/Size": {
+   "collection": "Language",
+   "name": "Android/Title Large/Size",
+   "type": "number",
+   "values": {
+    "EN": 22,
+    "AR": 22
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "md.sys.typescale.title-large.size"
+   }
+  },
+  "Language::Android/Title Large/Line Height": {
+   "collection": "Language",
+   "name": "Android/Title Large/Line Height",
+   "type": "number",
+   "values": {
+    "EN": 28,
+    "AR": 32
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "md.sys.typescale.title-large.line-height"
+   }
+  },
+  "Language::Android/Title Medium/Size": {
+   "collection": "Language",
+   "name": "Android/Title Medium/Size",
+   "type": "number",
+   "values": {
+    "EN": 16,
+    "AR": 16
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "md.sys.typescale.title-medium.size"
+   }
+  },
+  "Language::Android/Title Medium/Line Height": {
+   "collection": "Language",
+   "name": "Android/Title Medium/Line Height",
+   "type": "number",
+   "values": {
+    "EN": 24,
+    "AR": 24
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "md.sys.typescale.title-medium.line-height"
+   }
+  },
+  "Language::Android/Body Large/Size": {
+   "collection": "Language",
+   "name": "Android/Body Large/Size",
+   "type": "number",
+   "values": {
+    "EN": 16,
+    "AR": 16
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "md.sys.typescale.body-large.size"
+   }
+  },
+  "Language::Android/Body Large/Line Height": {
+   "collection": "Language",
+   "name": "Android/Body Large/Line Height",
+   "type": "number",
+   "values": {
+    "EN": 24,
+    "AR": 24
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "md.sys.typescale.body-large.line-height"
+   }
+  },
+  "Language::Android/Body Medium/Size": {
+   "collection": "Language",
+   "name": "Android/Body Medium/Size",
+   "type": "number",
+   "values": {
+    "EN": 14,
+    "AR": 14
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "md.sys.typescale.body-medium.size"
+   }
+  },
+  "Language::Android/Body Medium/Line Height": {
+   "collection": "Language",
+   "name": "Android/Body Medium/Line Height",
+   "type": "number",
+   "values": {
+    "EN": 20,
+    "AR": 20
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "md.sys.typescale.body-medium.line-height"
+   }
+  },
+  "Language::Android/Label Large/Size": {
+   "collection": "Language",
+   "name": "Android/Label Large/Size",
+   "type": "number",
+   "values": {
+    "EN": 14,
+    "AR": 14
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "md.sys.typescale.label-large.size"
+   }
+  },
+  "Language::Android/Label Large/Line Height": {
+   "collection": "Language",
+   "name": "Android/Label Large/Line Height",
+   "type": "number",
+   "values": {
+    "EN": 20,
+    "AR": 20
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "md.sys.typescale.label-large.line-height"
+   }
+  },
+  "Language::Android/Body Small/Size": {
+   "collection": "Language",
+   "name": "Android/Body Small/Size",
+   "type": "number",
+   "values": {
+    "EN": 12,
+    "AR": 12
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "md.sys.typescale.body-small.size"
+   }
+  },
+  "Language::Android/Body Small/Line Height": {
+   "collection": "Language",
+   "name": "Android/Body Small/Line Height",
+   "type": "number",
+   "values": {
+    "EN": 16,
+    "AR": 18
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "md.sys.typescale.body-small.line-height"
+   }
+  },
+  "Language::Android/Label Small/Size": {
+   "collection": "Language",
+   "name": "Android/Label Small/Size",
+   "type": "number",
+   "values": {
+    "EN": 11,
+    "AR": 11
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "md.sys.typescale.label-small.size"
+   }
+  },
+  "Language::Android/Label Small/Line Height": {
+   "collection": "Language",
+   "name": "Android/Label Small/Line Height",
+   "type": "number",
+   "values": {
+    "EN": 16,
+    "AR": 16
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "md.sys.typescale.label-small.line-height"
+   }
+  },
+  "OS::Platform/Is iOS": {
+   "collection": "OS",
+   "name": "Platform/Is iOS",
+   "type": "boolean",
+   "values": {
+    "iOS": true,
+    "Android": false
+   },
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "false",
+    "iOS": "true"
+   }
+  },
+  "OS::Platform/Is Android": {
+   "collection": "OS",
+   "name": "Platform/Is Android",
+   "type": "boolean",
+   "values": {
+    "iOS": false,
+    "Android": true
+   },
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "true",
+    "iOS": "false"
+   }
+  },
+  "OS::Platform/Name": {
+   "collection": "OS",
+   "name": "Platform/Name",
+   "type": "string",
+   "values": {
+    "iOS": "iOS",
+    "Android": "Android"
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "Android",
+    "iOS": "iOS"
+   }
+  },
+  "OS::Font Family": {
+   "collection": "OS",
+   "name": "Font Family",
+   "type": "string",
+   "values": {
+    "iOS": {
+     "alias": "Language::Font Family/iOS"
+    },
+    "Android": {
+     "alias": "Language::Font Family/Android"
+    }
+   },
+   "scopes": [
+    "FONT_FAMILY"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "md.sys.typescale.font",
+    "iOS": "Font.system"
+   }
+  },
+  "OS::Font Size/Large Title": {
+   "collection": "OS",
+   "name": "Font Size/Large Title",
+   "type": "number",
+   "values": {
+    "iOS": {
+     "alias": "Language::iOS/Large Title/Size"
+    },
+    "Android": {
+     "alias": "Language::Android/Headline Small/Size"
+    }
+   },
+   "scopes": [
+    "FONT_SIZE"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "md.sys.typescale.headline-small.size",
+    "iOS": ".font(.largeTitle)"
+   }
+  },
+  "OS::Line Height/Large Title": {
+   "collection": "OS",
+   "name": "Line Height/Large Title",
+   "type": "number",
+   "values": {
+    "iOS": {
+     "alias": "Language::iOS/Large Title/Line Height"
+    },
+    "Android": {
+     "alias": "Language::Android/Headline Small/Line Height"
+    }
+   },
+   "scopes": [
+    "LINE_HEIGHT"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "md.sys.typescale.headline-small.line-height",
+    "iOS": "Font.TextStyle.largeTitle.lineHeight"
+   }
+  },
+  "OS::Font Weight/Large Title": {
+   "collection": "OS",
+   "name": "Font Weight/Large Title",
+   "type": "number",
+   "values": {
+    "iOS": 700,
+    "Android": 400
+   },
+   "scopes": [
+    "FONT_WEIGHT"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "md.sys.typescale.headline-small.weight",
+    "iOS": "Font.Weight(700)"
+   }
+  },
+  "OS::Font Size/Title": {
+   "collection": "OS",
+   "name": "Font Size/Title",
+   "type": "number",
+   "values": {
+    "iOS": {
+     "alias": "Language::iOS/Title 2/Size"
+    },
+    "Android": {
+     "alias": "Language::Android/Title Large/Size"
+    }
+   },
+   "scopes": [
+    "FONT_SIZE"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "md.sys.typescale.title-large.size",
+    "iOS": ".font(.title2)"
+   }
+  },
+  "OS::Line Height/Title": {
+   "collection": "OS",
+   "name": "Line Height/Title",
+   "type": "number",
+   "values": {
+    "iOS": {
+     "alias": "Language::iOS/Title 2/Line Height"
+    },
+    "Android": {
+     "alias": "Language::Android/Title Large/Line Height"
+    }
+   },
+   "scopes": [
+    "LINE_HEIGHT"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "md.sys.typescale.title-large.line-height",
+    "iOS": "Font.TextStyle.title2.lineHeight"
+   }
+  },
+  "OS::Font Weight/Title": {
+   "collection": "OS",
+   "name": "Font Weight/Title",
+   "type": "number",
+   "values": {
+    "iOS": 700,
+    "Android": 400
+   },
+   "scopes": [
+    "FONT_WEIGHT"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "md.sys.typescale.title-large.weight",
+    "iOS": "Font.Weight(700)"
+   }
+  },
+  "OS::Font Size/Headline": {
+   "collection": "OS",
+   "name": "Font Size/Headline",
+   "type": "number",
+   "values": {
+    "iOS": {
+     "alias": "Language::iOS/Headline/Size"
+    },
+    "Android": {
+     "alias": "Language::Android/Title Medium/Size"
+    }
+   },
+   "scopes": [
+    "FONT_SIZE"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "md.sys.typescale.title-medium.size",
+    "iOS": ".font(.headline)"
+   }
+  },
+  "OS::Line Height/Headline": {
+   "collection": "OS",
+   "name": "Line Height/Headline",
+   "type": "number",
+   "values": {
+    "iOS": {
+     "alias": "Language::iOS/Headline/Line Height"
+    },
+    "Android": {
+     "alias": "Language::Android/Title Medium/Line Height"
+    }
+   },
+   "scopes": [
+    "LINE_HEIGHT"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "md.sys.typescale.title-medium.line-height",
+    "iOS": "Font.TextStyle.headline.lineHeight"
+   }
+  },
+  "OS::Font Weight/Headline": {
+   "collection": "OS",
+   "name": "Font Weight/Headline",
+   "type": "number",
+   "values": {
+    "iOS": 600,
+    "Android": 500
+   },
+   "scopes": [
+    "FONT_WEIGHT"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "md.sys.typescale.title-medium.weight",
+    "iOS": "Font.Weight(600)"
+   }
+  },
+  "OS::Font Size/Body": {
+   "collection": "OS",
+   "name": "Font Size/Body",
+   "type": "number",
+   "values": {
+    "iOS": {
+     "alias": "Language::iOS/Body/Size"
+    },
+    "Android": {
+     "alias": "Language::Android/Body Large/Size"
+    }
+   },
+   "scopes": [
+    "FONT_SIZE"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "md.sys.typescale.body-large.size",
+    "iOS": ".font(.body)"
+   }
+  },
+  "OS::Line Height/Body": {
+   "collection": "OS",
+   "name": "Line Height/Body",
+   "type": "number",
+   "values": {
+    "iOS": {
+     "alias": "Language::iOS/Body/Line Height"
+    },
+    "Android": {
+     "alias": "Language::Android/Body Large/Line Height"
+    }
+   },
+   "scopes": [
+    "LINE_HEIGHT"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "md.sys.typescale.body-large.line-height",
+    "iOS": "Font.TextStyle.body.lineHeight"
+   }
+  },
+  "OS::Font Weight/Body": {
+   "collection": "OS",
+   "name": "Font Weight/Body",
+   "type": "number",
+   "values": {
+    "iOS": 400,
+    "Android": 400
+   },
+   "scopes": [
+    "FONT_WEIGHT"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "md.sys.typescale.body-large.weight",
+    "iOS": "Font.Weight(400)"
+   }
+  },
+  "OS::Font Size/Subhead": {
+   "collection": "OS",
+   "name": "Font Size/Subhead",
+   "type": "number",
+   "values": {
+    "iOS": {
+     "alias": "Language::iOS/Subheadline/Size"
+    },
+    "Android": {
+     "alias": "Language::Android/Body Medium/Size"
+    }
+   },
+   "scopes": [
+    "FONT_SIZE"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "md.sys.typescale.body-medium.size",
+    "iOS": ".font(.subheadline)"
+   }
+  },
+  "OS::Line Height/Subhead": {
+   "collection": "OS",
+   "name": "Line Height/Subhead",
+   "type": "number",
+   "values": {
+    "iOS": {
+     "alias": "Language::iOS/Subheadline/Line Height"
+    },
+    "Android": {
+     "alias": "Language::Android/Body Medium/Line Height"
+    }
+   },
+   "scopes": [
+    "LINE_HEIGHT"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "md.sys.typescale.body-medium.line-height",
+    "iOS": "Font.TextStyle.subheadline.lineHeight"
+   }
+  },
+  "OS::Font Weight/Subhead": {
+   "collection": "OS",
+   "name": "Font Weight/Subhead",
+   "type": "number",
+   "values": {
+    "iOS": 400,
+    "Android": 400
+   },
+   "scopes": [
+    "FONT_WEIGHT"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "md.sys.typescale.body-medium.weight",
+    "iOS": "Font.Weight(400)"
+   }
+  },
+  "OS::Font Size/Footnote": {
+   "collection": "OS",
+   "name": "Font Size/Footnote",
+   "type": "number",
+   "values": {
+    "iOS": {
+     "alias": "Language::iOS/Footnote/Size"
+    },
+    "Android": {
+     "alias": "Language::Android/Body Small/Size"
+    }
+   },
+   "scopes": [
+    "FONT_SIZE"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "md.sys.typescale.body-small.size",
+    "iOS": ".font(.footnote)"
+   }
+  },
+  "OS::Line Height/Footnote": {
+   "collection": "OS",
+   "name": "Line Height/Footnote",
+   "type": "number",
+   "values": {
+    "iOS": {
+     "alias": "Language::iOS/Footnote/Line Height"
+    },
+    "Android": {
+     "alias": "Language::Android/Body Small/Line Height"
+    }
+   },
+   "scopes": [
+    "LINE_HEIGHT"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "md.sys.typescale.body-small.line-height",
+    "iOS": "Font.TextStyle.footnote.lineHeight"
+   }
+  },
+  "OS::Font Weight/Footnote": {
+   "collection": "OS",
+   "name": "Font Weight/Footnote",
+   "type": "number",
+   "values": {
+    "iOS": 400,
+    "Android": 400
+   },
+   "scopes": [
+    "FONT_WEIGHT"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "md.sys.typescale.body-small.weight",
+    "iOS": "Font.Weight(400)"
+   }
+  },
+  "OS::Font Size/Caption": {
+   "collection": "OS",
+   "name": "Font Size/Caption",
+   "type": "number",
+   "values": {
+    "iOS": {
+     "alias": "Language::iOS/Caption 1/Size"
+    },
+    "Android": {
+     "alias": "Language::Android/Label Small/Size"
+    }
+   },
+   "scopes": [
+    "FONT_SIZE"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "md.sys.typescale.label-small.size",
+    "iOS": ".font(.caption1)"
+   }
+  },
+  "OS::Line Height/Caption": {
+   "collection": "OS",
+   "name": "Line Height/Caption",
+   "type": "number",
+   "values": {
+    "iOS": {
+     "alias": "Language::iOS/Caption 1/Line Height"
+    },
+    "Android": {
+     "alias": "Language::Android/Label Small/Line Height"
+    }
+   },
+   "scopes": [
+    "LINE_HEIGHT"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "md.sys.typescale.label-small.line-height",
+    "iOS": "Font.TextStyle.caption1.lineHeight"
+   }
+  },
+  "OS::Font Weight/Caption": {
+   "collection": "OS",
+   "name": "Font Weight/Caption",
+   "type": "number",
+   "values": {
+    "iOS": 400,
+    "Android": 500
+   },
+   "scopes": [
+    "FONT_WEIGHT"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "md.sys.typescale.label-small.weight",
+    "iOS": "Font.Weight(400)"
+   }
+  },
+  "OS::Font Size/Button Label": {
+   "collection": "OS",
+   "name": "Font Size/Button Label",
+   "type": "number",
+   "values": {
+    "iOS": {
+     "alias": "Language::iOS/Headline/Size"
+    },
+    "Android": {
+     "alias": "Language::Android/Label Large/Size"
+    }
+   },
+   "scopes": [
+    "FONT_SIZE"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "md.sys.typescale.label-large.size",
+    "iOS": ".font(.headline)"
+   }
+  },
+  "OS::Line Height/Button Label": {
+   "collection": "OS",
+   "name": "Line Height/Button Label",
+   "type": "number",
+   "values": {
+    "iOS": {
+     "alias": "Language::iOS/Headline/Line Height"
+    },
+    "Android": {
+     "alias": "Language::Android/Label Large/Line Height"
+    }
+   },
+   "scopes": [
+    "LINE_HEIGHT"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "md.sys.typescale.label-large.line-height",
+    "iOS": "Font.TextStyle.headline.lineHeight"
+   }
+  },
+  "OS::Font Weight/Button Label": {
+   "collection": "OS",
+   "name": "Font Weight/Button Label",
+   "type": "number",
+   "values": {
+    "iOS": 600,
+    "Android": 500
+   },
+   "scopes": [
+    "FONT_WEIGHT"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "md.sys.typescale.label-large.weight",
+    "iOS": "Font.Weight(600)"
+   }
+  },
+  "OS::Spacing/Screen Margin": {
+   "collection": "OS",
+   "name": "Spacing/Screen Margin",
+   "type": "number",
+   "values": {
+    "iOS": {
+     "alias": "Primitives::Number/16"
+    },
+    "Android": {
+     "alias": "Primitives::Number/16"
+    }
+   },
+   "scopes": [
+    "GAP"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "Spacing.ScreenMargin",
+    "iOS": "Spacing.screenMargin"
+   }
+  },
+  "OS::Spacing/Stack Gap": {
+   "collection": "OS",
+   "name": "Spacing/Stack Gap",
+   "type": "number",
+   "values": {
+    "iOS": {
+     "alias": "Primitives::Number/8"
+    },
+    "Android": {
+     "alias": "Primitives::Number/8"
+    }
+   },
+   "scopes": [
+    "GAP"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "Spacing.Stack",
+    "iOS": "Spacing.stack"
+   }
+  },
+  "OS::Spacing/Inline Gap": {
+   "collection": "OS",
+   "name": "Spacing/Inline Gap",
+   "type": "number",
+   "values": {
+    "iOS": {
+     "alias": "Primitives::Number/12"
+    },
+    "Android": {
+     "alias": "Primitives::Number/16"
+    }
+   },
+   "scopes": [
+    "GAP"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "Spacing.Inline",
+    "iOS": "Spacing.inline"
+   }
+  },
+  "OS::Spacing/Section Gap": {
+   "collection": "OS",
+   "name": "Spacing/Section Gap",
+   "type": "number",
+   "values": {
+    "iOS": {
+     "alias": "Primitives::Number/35"
+    },
+    "Android": {
+     "alias": "Primitives::Number/24"
+    }
+   },
+   "scopes": [
+    "GAP"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "Spacing.Section",
+    "iOS": "Spacing.section"
+   }
+  },
+  "OS::Components/List Item/Padding X": {
+   "collection": "OS",
+   "name": "Components/List Item/Padding X",
+   "type": "number",
+   "values": {
+    "iOS": {
+     "alias": "Primitives::Number/16"
+    },
+    "Android": {
+     "alias": "Primitives::Number/16"
+    }
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "Spacing.ListItemX",
+    "iOS": "Spacing.listItemX"
+   }
+  },
+  "OS::Components/List Item/Padding Y": {
+   "collection": "OS",
+   "name": "Components/List Item/Padding Y",
+   "type": "number",
+   "values": {
+    "iOS": {
+     "alias": "Primitives::Number/11"
+    },
+    "Android": {
+     "alias": "Primitives::Number/12"
+    }
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "Spacing.ListItemY",
+    "iOS": "Spacing.listItemY"
+   }
+  },
+  "OS::Components/Button/Padding X": {
+   "collection": "OS",
+   "name": "Components/Button/Padding X",
+   "type": "number",
+   "values": {
+    "iOS": {
+     "alias": "Primitives::Number/20"
+    },
+    "Android": {
+     "alias": "Primitives::Number/24"
+    }
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "Spacing.ButtonX",
+    "iOS": "Spacing.buttonX"
+   }
+  },
+  "OS::Components/Text Field/Padding X": {
+   "collection": "OS",
+   "name": "Components/Text Field/Padding X",
+   "type": "number",
+   "values": {
+    "iOS": {
+     "alias": "Primitives::Number/16"
+    },
+    "Android": {
+     "alias": "Primitives::Number/16"
+    }
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "Spacing.FieldX",
+    "iOS": "Spacing.fieldX"
+   }
+  },
+  "OS::Components/Button/Radius": {
+   "collection": "OS",
+   "name": "Components/Button/Radius",
+   "type": "number",
+   "values": {
+    "iOS": {
+     "alias": "Primitives::Number/12"
+    },
+    "Android": {
+     "alias": "Primitives::Number/999"
+    }
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "MaterialTheme.shapes.extraLarge",
+    "iOS": "Radius.button"
+   }
+  },
+  "OS::Radius/Card": {
+   "collection": "OS",
+   "name": "Radius/Card",
+   "type": "number",
+   "values": {
+    "iOS": {
+     "alias": "Primitives::Number/10"
+    },
+    "Android": {
+     "alias": "Primitives::Number/12"
+    }
+   },
+   "scopes": [
+    "CORNER_RADIUS"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "MaterialTheme.shapes.medium",
+    "iOS": "Radius.card"
+   }
+  },
+  "OS::Components/Text Field/Radius": {
+   "collection": "OS",
+   "name": "Components/Text Field/Radius",
+   "type": "number",
+   "values": {
+    "iOS": {
+     "alias": "Primitives::Number/10"
+    },
+    "Android": {
+     "alias": "Primitives::Number/4"
+    }
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "MaterialTheme.shapes.extraSmall",
+    "iOS": "Radius.field"
+   }
+  },
+  "OS::Components/Button/Height": {
+   "collection": "OS",
+   "name": "Components/Button/Height",
+   "type": "number",
+   "values": {
+    "iOS": {
+     "alias": "Primitives::Number/50"
+    },
+    "Android": {
+     "alias": "Primitives::Number/40"
+    }
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "ButtonDefaults.MinHeight",
+    "iOS": "Size.button"
+   }
+  },
+  "OS::Components/Icon Button/Size": {
+   "collection": "OS",
+   "name": "Components/Icon Button/Size",
+   "type": "number",
+   "values": {
+    "iOS": {
+     "alias": "Primitives::Number/44"
+    },
+    "Android": {
+     "alias": "Primitives::Number/48"
+    }
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "IconButtonDefaults.Size",
+    "iOS": "Size.iconButton"
+   }
+  },
+  "OS::Components/List Item/Min Height": {
+   "collection": "OS",
+   "name": "Components/List Item/Min Height",
+   "type": "number",
+   "values": {
+    "iOS": {
+     "alias": "Primitives::Number/44"
+    },
+    "Android": {
+     "alias": "Primitives::Number/56"
+    }
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "ListItemDefaults.MinHeight",
+    "iOS": "Size.listItem"
+   }
+  },
+  "OS::Components/Text Field/Height": {
+   "collection": "OS",
+   "name": "Components/Text Field/Height",
+   "type": "number",
+   "values": {
+    "iOS": {
+     "alias": "Primitives::Number/44"
+    },
+    "Android": {
+     "alias": "Primitives::Number/56"
+    }
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "TextFieldDefaults.MinHeight",
+    "iOS": "Size.textField"
+   }
+  },
+  "OS::Components/Top App Bar/Height": {
+   "collection": "OS",
+   "name": "Components/Top App Bar/Height",
+   "type": "number",
+   "values": {
+    "iOS": {
+     "alias": "Primitives::Number/44"
+    },
+    "Android": {
+     "alias": "Primitives::Number/64"
+    }
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "TopAppBarDefaults.TopAppBarExpandedHeight",
+    "iOS": "Size.navigationBar"
+   }
+  },
+  "OS::Components/Icon/Size": {
+   "collection": "OS",
+   "name": "Components/Icon/Size",
+   "type": "number",
+   "values": {
+    "iOS": {
+     "alias": "Primitives::Number/22"
+    },
+    "Android": {
+     "alias": "Primitives::Number/24"
+    }
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "Size.Icon",
+    "iOS": "Size.icon"
+   }
+  },
+  "OS::Components/Segmented Control/Radius Outer": {
+   "collection": "OS",
+   "name": "Components/Segmented Control/Radius Outer",
+   "type": "number",
+   "values": {
+    "iOS": {
+     "alias": "Primitives::Number/9"
+    },
+    "Android": {
+     "alias": "Primitives::Number/999"
+    }
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "SegmentedButtonDefaults.Shape",
+    "iOS": "SegmentedControl.radiusOuter"
+   }
+  },
+  "OS::Components/Segmented Control/Radius Inner": {
+   "collection": "OS",
+   "name": "Components/Segmented Control/Radius Inner",
+   "type": "number",
+   "values": {
+    "iOS": {
+     "alias": "Primitives::Number/7"
+    },
+    "Android": {
+     "alias": "Primitives::Number/0"
+    }
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "SegmentedButtonDefaults.Shape",
+    "iOS": "SegmentedControl.radiusInner"
+   }
+  },
+  "OS::Components/Segmented Control/Height": {
+   "collection": "OS",
+   "name": "Components/Segmented Control/Height",
+   "type": "number",
+   "values": {
+    "iOS": {
+     "alias": "Primitives::Number/32"
+    },
+    "Android": {
+     "alias": "Primitives::Number/40"
+    }
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "SegmentedButtonDefaults.MinHeight",
+    "iOS": "SegmentedControl.height"
+   }
+  },
+  "OS::Components/Segmented Control/Padding": {
+   "collection": "OS",
+   "name": "Components/Segmented Control/Padding",
+   "type": "number",
+   "values": {
+    "iOS": {
+     "alias": "Primitives::Number/2"
+    },
+    "Android": {
+     "alias": "Primitives::Number/0"
+    }
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "SegmentedButtonDefaults.Padding",
+    "iOS": "SegmentedControl.padding"
+   }
+  },
+  "OS::Components/Toggle/Track Width": {
+   "collection": "OS",
+   "name": "Components/Toggle/Track Width",
+   "type": "number",
+   "values": {
+    "iOS": {
+     "alias": "Primitives::Number/51"
+    },
+    "Android": {
+     "alias": "Primitives::Number/52"
+    }
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "SwitchDefaults.TrackWidth",
+    "iOS": "Toggle.trackWidth"
+   }
+  },
+  "OS::Components/Toggle/Track Height": {
+   "collection": "OS",
+   "name": "Components/Toggle/Track Height",
+   "type": "number",
+   "values": {
+    "iOS": {
+     "alias": "Primitives::Number/31"
+    },
+    "Android": {
+     "alias": "Primitives::Number/32"
+    }
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "SwitchDefaults.TrackHeight",
+    "iOS": "Toggle.trackHeight"
+   }
+  },
+  "OS::Components/Toggle/Thumb Size Off": {
+   "collection": "OS",
+   "name": "Components/Toggle/Thumb Size Off",
+   "type": "number",
+   "values": {
+    "iOS": {
+     "alias": "Primitives::Number/27"
+    },
+    "Android": {
+     "alias": "Primitives::Number/16"
+    }
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "SwitchDefaults.UncheckedThumbDiameter",
+    "iOS": "Toggle.thumbOff"
+   }
+  },
+  "OS::Components/Toggle/Thumb Size On": {
+   "collection": "OS",
+   "name": "Components/Toggle/Thumb Size On",
+   "type": "number",
+   "values": {
+    "iOS": {
+     "alias": "Primitives::Number/27"
+    },
+    "Android": {
+     "alias": "Primitives::Number/24"
+    }
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "SwitchDefaults.CheckedThumbDiameter",
+    "iOS": "Toggle.thumbOn"
+   }
+  },
+  "OS::Components/Toggle/Track Border": {
+   "collection": "OS",
+   "name": "Components/Toggle/Track Border",
+   "type": "number",
+   "values": {
+    "iOS": {
+     "alias": "Primitives::Number/0"
+    },
+    "Android": {
+     "alias": "Primitives::Number/2"
+    }
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "SwitchDefaults.TrackOutlineWidth",
+    "iOS": "Toggle.trackBorder"
+   }
+  },
+  "OS::Components/Checkbox/Size": {
+   "collection": "OS",
+   "name": "Components/Checkbox/Size",
+   "type": "number",
+   "values": {
+    "iOS": {
+     "alias": "Primitives::Number/22"
+    },
+    "Android": {
+     "alias": "Primitives::Number/18"
+    }
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "CheckboxDefaults.Size",
+    "iOS": "Checkbox.size"
+   }
+  },
+  "OS::Components/Checkbox/Radius": {
+   "collection": "OS",
+   "name": "Components/Checkbox/Radius",
+   "type": "number",
+   "values": {
+    "iOS": {
+     "alias": "Primitives::Number/999"
+    },
+    "Android": {
+     "alias": "Primitives::Number/2"
+    }
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "CheckboxDefaults.Shape",
+    "iOS": "Checkbox.radius"
+   }
+  },
+  "OS::Surface/Screen": {
+   "collection": "OS",
+   "name": "Surface/Screen",
+   "type": "color",
+   "values": {
+    "iOS": {
+     "alias": "Color::Background/Grouped"
+    },
+    "Android": {
+     "alias": "Color::Background/Primary"
+    }
+   },
+   "scopes": [
+    "FRAME_FILL",
+    "SHAPE_FILL"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "MaterialTheme.colorScheme.surface",
+    "iOS": "Color(.systemGroupedBackground)"
+   }
+  },
+  "OS::Components/List Item/Fill": {
+   "collection": "OS",
+   "name": "Components/List Item/Fill",
+   "type": "color",
+   "values": {
+    "iOS": {
+     "alias": "Color::Background/Elevated"
+    },
+    "Android": {
+     "alias": "Color::Background/Primary"
+    }
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "MaterialTheme.colorScheme.surface",
+    "iOS": "Color(.secondarySystemGroupedBackground)"
+   }
+  },
+  "OS::Components/Top App Bar/Fill": {
+   "collection": "OS",
+   "name": "Components/Top App Bar/Fill",
+   "type": "color",
+   "values": {
+    "iOS": {
+     "alias": "Color::Background/Grouped"
+    },
+    "Android": {
+     "alias": "Color::Background/Primary"
+    }
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "MaterialTheme.colorScheme.surface",
+    "iOS": "Color(.systemGroupedBackground)"
+   }
+  },
+  "OS::Shadow/Elevation 1": {
+   "collection": "OS",
+   "name": "Shadow/Elevation 1",
+   "type": "color",
+   "values": {
+    "iOS": {
+     "alias": "Color::Shadow/None"
+    },
+    "Android": {
+     "alias": "Color::Shadow/Default"
+    }
+   },
+   "scopes": [
+    "EFFECT_COLOR"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "MaterialTheme.colorScheme.shadow",
+    "iOS": "Color.clear"
+   }
+  },
+  "OS::Components/Toggle/Thumb Off": {
+   "collection": "OS",
+   "name": "Components/Toggle/Thumb Off",
+   "type": "color",
+   "values": {
+    "iOS": {
+     "alias": "Color::Fill/Thumb"
+    },
+    "Android": {
+     "alias": "Color::Fill/Thumb Off"
+    }
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "MaterialTheme.colorScheme.outline",
+    "iOS": "Color.white"
+   }
+  },
+  "OS::Components/Toggle/Track Border Color": {
+   "collection": "OS",
+   "name": "Components/Toggle/Track Border Color",
+   "type": "color",
+   "values": {
+    "iOS": {
+     "alias": "Color::Shadow/None"
+    },
+    "Android": {
+     "alias": "Color::Border/Strong"
+    }
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "MaterialTheme.colorScheme.outline",
+    "iOS": "Color.clear"
+   }
+  },
+  "Color::Fill/On Accent": {
+   "collection": "Color",
+   "name": "Fill/On Accent",
+   "type": "color",
+   "values": {
+    "Light": {
+     "alias": "Primitives::Color/Neutral/950"
+    },
+    "Dark": {
+     "alias": "Primitives::Color/Neutral/950"
+    }
+   },
+   "scopes": [
+    "FRAME_FILL",
+    "SHAPE_FILL"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "MaterialTheme.colorScheme.onPrimaryContainer",
+    "iOS": "Color(\"OnAccent\")"
+   }
+  },
+  "Color::Fill/Accent Subtle": {
+   "collection": "Color",
+   "name": "Fill/Accent Subtle",
+   "type": "color",
+   "values": {
+    "Light": {
+     "alias": "Primitives::Color/Brand/100"
+    },
+    "Dark": {
+     "alias": "Primitives::Color/Brand/900"
+    }
+   },
+   "scopes": [
+    "FRAME_FILL",
+    "SHAPE_FILL"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "MaterialTheme.colorScheme.secondaryContainer",
+    "iOS": "Color.accentColor.opacity(0.15)"
+   }
+  },
+  "Color::Fill/Transparent": {
+   "collection": "Color",
+   "name": "Fill/Transparent",
+   "type": "color",
+   "values": {
+    "Light": {
+     "alias": "Primitives::Color/Transparent"
+    },
+    "Dark": {
+     "alias": "Primitives::Color/Transparent"
+    }
+   },
+   "scopes": [
+    "FRAME_FILL",
+    "SHAPE_FILL"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "Color.Transparent",
+    "iOS": "Color.clear"
+   }
+  },
+  "OS::Components/Toggle/Thumb Inset Off": {
+   "collection": "OS",
+   "name": "Components/Toggle/Thumb Inset Off",
+   "type": "number",
+   "values": {
+    "iOS": {
+     "alias": "Primitives::Number/2"
+    },
+    "Android": {
+     "alias": "Primitives::Number/8"
+    }
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "SwitchDefaults.UncheckedThumbInset",
+    "iOS": "Toggle.thumbInset"
+   }
+  },
+  "OS::Components/Toggle/Thumb Inset On": {
+   "collection": "OS",
+   "name": "Components/Toggle/Thumb Inset On",
+   "type": "number",
+   "values": {
+    "iOS": {
+     "alias": "Primitives::Number/2"
+    },
+    "Android": {
+     "alias": "Primitives::Number/4"
+    }
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "SwitchDefaults.CheckedThumbInset",
+    "iOS": "Toggle.thumbInset"
+   }
+  },
+  "OS::Radius/Full": {
+   "collection": "OS",
+   "name": "Radius/Full",
+   "type": "number",
+   "values": {
+    "iOS": {
+     "alias": "Primitives::Number/999"
+    },
+    "Android": {
+     "alias": "Primitives::Number/999"
+    }
+   },
+   "scopes": [
+    "CORNER_RADIUS"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "CircleShape",
+    "iOS": "Capsule()"
+   }
+  },
+  "OS::Components/Segmented Control/Border": {
+   "collection": "OS",
+   "name": "Components/Segmented Control/Border",
+   "type": "number",
+   "values": {
+    "iOS": {
+     "alias": "Primitives::Number/0"
+    },
+    "Android": {
+     "alias": "Primitives::Number/1"
+    }
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "SegmentedButtonDefaults.BorderWidth",
+    "iOS": "SegmentedControl.border"
+   }
+  },
+  "OS::Components/Checkbox/Glyph": {
+   "collection": "OS",
+   "name": "Components/Checkbox/Glyph",
+   "type": "number",
+   "values": {
+    "iOS": {
+     "alias": "Primitives::Number/16"
+    },
+    "Android": {
+     "alias": "Primitives::Number/18"
+    }
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "CheckboxDefaults.IconSize",
+    "iOS": "Checkbox.glyph"
+   }
+  },
+  "OS::State/Disabled Opacity": {
+   "collection": "OS",
+   "name": "State/Disabled Opacity",
+   "type": "number",
+   "values": {
+    "iOS": 40,
+    "Android": 38
+   },
+   "scopes": [
+    "OPACITY"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "ContentAlpha.disabled (0.38f)",
+    "iOS": ".opacity(0.4)"
+   }
+  },
+  "OS::Components/Checkbox/Border": {
+   "collection": "OS",
+   "name": "Components/Checkbox/Border",
+   "type": "number",
+   "values": {
+    "iOS": 1.5,
+    "Android": 2
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "CheckboxDefaults.StrokeWidth",
+    "iOS": "Checkbox.border"
+   }
+  },
+  "OS::Components/Text Field/Border": {
+   "collection": "OS",
+   "name": "Components/Text Field/Border",
+   "type": "number",
+   "values": {
+    "iOS": 0,
+    "Android": 1
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "OutlinedTextFieldDefaults.UnfocusedBorderThickness",
+    "iOS": "TextField.border"
+   }
+  },
+  "OS::Components/Text Field/Border Focused": {
+   "collection": "OS",
+   "name": "Components/Text Field/Border Focused",
+   "type": "number",
+   "values": {
+    "iOS": 0,
+    "Android": 2
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "OutlinedTextFieldDefaults.FocusedBorderThickness",
+    "iOS": "TextField.borderFocused"
+   }
+  },
+  "OS::Components/Toggle/Thumb On": {
+   "collection": "OS",
+   "name": "Components/Toggle/Thumb On",
+   "type": "color",
+   "values": {
+    "iOS": {
+     "alias": "Color::Fill/Thumb"
+    },
+    "Android": {
+     "alias": "Color::Fill/On Accent"
+    }
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "MaterialTheme.colorScheme.onPrimaryContainer",
+    "iOS": "Color.white"
+   }
+  },
+  "OS::Components/Segmented Control/Track": {
+   "collection": "OS",
+   "name": "Components/Segmented Control/Track",
+   "type": "color",
+   "values": {
+    "iOS": {
+     "alias": "Color::Fill/Secondary"
+    },
+    "Android": {
+     "alias": "Color::Fill/Transparent"
+    }
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "Color.Transparent",
+    "iOS": "Color(.secondarySystemFill)"
+   }
+  },
+  "OS::Components/Segmented Control/Selected Fill": {
+   "collection": "OS",
+   "name": "Components/Segmented Control/Selected Fill",
+   "type": "color",
+   "values": {
+    "iOS": {
+     "alias": "Color::Fill/Segment Selected"
+    },
+    "Android": {
+     "alias": "Color::Fill/Accent Subtle"
+    }
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "MaterialTheme.colorScheme.secondaryContainer",
+    "iOS": "Color(.systemBackground)"
+   }
+  },
+  "OS::Components/Text Field/Fill": {
+   "collection": "OS",
+   "name": "Components/Text Field/Fill",
+   "type": "color",
+   "values": {
+    "iOS": {
+     "alias": "Color::Fill/Secondary"
+    },
+    "Android": {
+     "alias": "Color::Fill/Transparent"
+    }
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "Color.Transparent",
+    "iOS": "Color(.secondarySystemFill)"
+   }
+  },
+  "OS::Components/List Group/Inset": {
+   "collection": "OS",
+   "name": "Components/List Group/Inset",
+   "type": "number",
+   "values": {
+    "iOS": {
+     "alias": "Primitives::Number/16"
+    },
+    "Android": {
+     "alias": "Primitives::Number/0"
+    }
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "Spacing.ListInset",
+    "iOS": "Spacing.listInset"
+   }
+  },
+  "OS::Components/List Group/Radius": {
+   "collection": "OS",
+   "name": "Components/List Group/Radius",
+   "type": "number",
+   "values": {
+    "iOS": {
+     "alias": "Primitives::Number/10"
+    },
+    "Android": {
+     "alias": "Primitives::Number/0"
+    }
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "RectangleShape",
+    "iOS": "Radius.listGroup"
+   }
+  },
+  "OS::Components/Top App Bar/Padding X": {
+   "collection": "OS",
+   "name": "Components/Top App Bar/Padding X",
+   "type": "number",
+   "values": {
+    "iOS": {
+     "alias": "Primitives::Number/8"
+    },
+    "Android": {
+     "alias": "Primitives::Number/4"
+    }
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "TopAppBarDefaults.ContentPadding",
+    "iOS": "Spacing.barX"
+   }
+  },
+  "OS::Components/Top App Bar/Title Inset": {
+   "collection": "OS",
+   "name": "Components/Top App Bar/Title Inset",
+   "type": "number",
+   "values": {
+    "iOS": {
+     "alias": "Primitives::Number/0"
+    },
+    "Android": {
+     "alias": "Primitives::Number/12"
+    }
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "TopAppBarDefaults.TitleInset",
+    "iOS": "Spacing.barTitleInset"
+   }
+  },
+  "OS::Spacing/Tight": {
+   "collection": "OS",
+   "name": "Spacing/Tight",
+   "type": "number",
+   "values": {
+    "iOS": {
+     "alias": "Primitives::Number/2"
+    },
+    "Android": {
+     "alias": "Primitives::Number/2"
+    }
+   },
+   "scopes": [
+    "GAP"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "Spacing.Tight",
+    "iOS": "Spacing.tight"
+   }
+  },
+  "OS::Components/Text Field/Label Padding": {
+   "collection": "OS",
+   "name": "Components/Text Field/Label Padding",
+   "type": "number",
+   "values": {
+    "iOS": {
+     "alias": "Primitives::Number/4"
+    },
+    "Android": {
+     "alias": "Primitives::Number/4"
+    }
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "OutlinedTextFieldDefaults.LabelPadding",
+    "iOS": "Spacing.labelPadding"
+   }
+  },
+  "Language::Direction/Is LTR": {
+   "collection": "Language",
+   "name": "Direction/Is LTR",
+   "type": "boolean",
+   "values": {
+    "EN": true,
+    "AR": false
+   },
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "LocalLayoutDirection.current == LayoutDirection.Ltr",
+    "iOS": "layoutDirection == .leftToRight"
+   }
+  },
+  "Language::Direction/Is RTL": {
+   "collection": "Language",
+   "name": "Direction/Is RTL",
+   "type": "boolean",
+   "values": {
+    "EN": false,
+    "AR": true
+   },
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "LocalLayoutDirection.current == LayoutDirection.Rtl",
+    "iOS": "layoutDirection == .rightToLeft"
+   }
+  },
+  "Component Specific::Button/Height": {
+   "collection": "Component Specific",
+   "name": "Button/Height",
+   "type": "number",
+   "values": {
+    "Value": {
+     "alias": "OS::Components/Button/Height"
+    }
+   },
+   "scopes": [
+    "WIDTH_HEIGHT"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "ButtonDefaults.MinHeight",
+    "iOS": "Size.button"
+   }
+  },
+  "Component Specific::Button/Radius": {
+   "collection": "Component Specific",
+   "name": "Button/Radius",
+   "type": "number",
+   "values": {
+    "Value": {
+     "alias": "OS::Components/Button/Radius"
+    }
+   },
+   "scopes": [
+    "CORNER_RADIUS"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "MaterialTheme.shapes.extraLarge",
+    "iOS": "Radius.button"
+   }
+  },
+  "Component Specific::Button/Padding X": {
+   "collection": "Component Specific",
+   "name": "Button/Padding X",
+   "type": "number",
+   "values": {
+    "Value": {
+     "alias": "OS::Components/Button/Padding X"
+    }
+   },
+   "scopes": [
+    "GAP"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "Spacing.ButtonX",
+    "iOS": "Spacing.buttonX"
+   }
+  },
+  "Component Specific::Icon Button/Size": {
+   "collection": "Component Specific",
+   "name": "Icon Button/Size",
+   "type": "number",
+   "values": {
+    "Value": {
+     "alias": "OS::Components/Icon Button/Size"
+    }
+   },
+   "scopes": [
+    "WIDTH_HEIGHT"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "IconButtonDefaults.Size",
+    "iOS": "Size.iconButton"
+   }
+  },
+  "Component Specific::Icon/Size": {
+   "collection": "Component Specific",
+   "name": "Icon/Size",
+   "type": "number",
+   "values": {
+    "Value": {
+     "alias": "OS::Components/Icon/Size"
+    }
+   },
+   "scopes": [
+    "WIDTH_HEIGHT"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "Size.Icon",
+    "iOS": "Size.icon"
+   }
+  },
+  "Component Specific::List Item/Min Height": {
+   "collection": "Component Specific",
+   "name": "List Item/Min Height",
+   "type": "number",
+   "values": {
+    "Value": {
+     "alias": "OS::Components/List Item/Min Height"
+    }
+   },
+   "scopes": [
+    "WIDTH_HEIGHT"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "ListItemDefaults.MinHeight",
+    "iOS": "Size.listItem"
+   }
+  },
+  "Component Specific::List Item/Padding X": {
+   "collection": "Component Specific",
+   "name": "List Item/Padding X",
+   "type": "number",
+   "values": {
+    "Value": {
+     "alias": "OS::Components/List Item/Padding X"
+    }
+   },
+   "scopes": [
+    "GAP"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "Spacing.ListItemX",
+    "iOS": "Spacing.listItemX"
+   }
+  },
+  "Component Specific::List Item/Padding Y": {
+   "collection": "Component Specific",
+   "name": "List Item/Padding Y",
+   "type": "number",
+   "values": {
+    "Value": {
+     "alias": "OS::Components/List Item/Padding Y"
+    }
+   },
+   "scopes": [
+    "GAP"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "Spacing.ListItemY",
+    "iOS": "Spacing.listItemY"
+   }
+  },
+  "Component Specific::List Item/Fill": {
+   "collection": "Component Specific",
+   "name": "List Item/Fill",
+   "type": "color",
+   "values": {
+    "Value": {
+     "alias": "OS::Components/List Item/Fill"
+    }
+   },
+   "scopes": [
+    "FRAME_FILL",
+    "SHAPE_FILL"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "MaterialTheme.colorScheme.surface",
+    "iOS": "Color(.secondarySystemGroupedBackground)"
+   }
+  },
+  "Component Specific::List Group/Inset": {
+   "collection": "Component Specific",
+   "name": "List Group/Inset",
+   "type": "number",
+   "values": {
+    "Value": {
+     "alias": "OS::Components/List Group/Inset"
+    }
+   },
+   "scopes": [
+    "GAP"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "Spacing.ListInset",
+    "iOS": "Spacing.listInset"
+   }
+  },
+  "Component Specific::List Group/Radius": {
+   "collection": "Component Specific",
+   "name": "List Group/Radius",
+   "type": "number",
+   "values": {
+    "Value": {
+     "alias": "OS::Components/List Group/Radius"
+    }
+   },
+   "scopes": [
+    "CORNER_RADIUS"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "RectangleShape",
+    "iOS": "Radius.listGroup"
+   }
+  },
+  "Component Specific::Text Field/Height": {
+   "collection": "Component Specific",
+   "name": "Text Field/Height",
+   "type": "number",
+   "values": {
+    "Value": {
+     "alias": "OS::Components/Text Field/Height"
+    }
+   },
+   "scopes": [
+    "WIDTH_HEIGHT"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "TextFieldDefaults.MinHeight",
+    "iOS": "Size.textField"
+   }
+  },
+  "Component Specific::Text Field/Radius": {
+   "collection": "Component Specific",
+   "name": "Text Field/Radius",
+   "type": "number",
+   "values": {
+    "Value": {
+     "alias": "OS::Components/Text Field/Radius"
+    }
+   },
+   "scopes": [
+    "CORNER_RADIUS"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "MaterialTheme.shapes.extraSmall",
+    "iOS": "Radius.field"
+   }
+  },
+  "Component Specific::Text Field/Padding X": {
+   "collection": "Component Specific",
+   "name": "Text Field/Padding X",
+   "type": "number",
+   "values": {
+    "Value": {
+     "alias": "OS::Components/Text Field/Padding X"
+    }
+   },
+   "scopes": [
+    "GAP"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "Spacing.FieldX",
+    "iOS": "Spacing.fieldX"
+   }
+  },
+  "Component Specific::Text Field/Label Padding": {
+   "collection": "Component Specific",
+   "name": "Text Field/Label Padding",
+   "type": "number",
+   "values": {
+    "Value": {
+     "alias": "OS::Components/Text Field/Label Padding"
+    }
+   },
+   "scopes": [
+    "GAP"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "OutlinedTextFieldDefaults.LabelPadding",
+    "iOS": "Spacing.labelPadding"
+   }
+  },
+  "Component Specific::Top App Bar/Height": {
+   "collection": "Component Specific",
+   "name": "Top App Bar/Height",
+   "type": "number",
+   "values": {
+    "Value": {
+     "alias": "OS::Components/Top App Bar/Height"
+    }
+   },
+   "scopes": [
+    "WIDTH_HEIGHT"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "TopAppBarDefaults.TopAppBarExpandedHeight",
+    "iOS": "Size.navigationBar"
+   }
+  },
+  "Component Specific::Top App Bar/Padding X": {
+   "collection": "Component Specific",
+   "name": "Top App Bar/Padding X",
+   "type": "number",
+   "values": {
+    "Value": {
+     "alias": "OS::Components/Top App Bar/Padding X"
+    }
+   },
+   "scopes": [
+    "GAP"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "TopAppBarDefaults.ContentPadding",
+    "iOS": "Spacing.barX"
+   }
+  },
+  "Component Specific::Top App Bar/Title Inset": {
+   "collection": "Component Specific",
+   "name": "Top App Bar/Title Inset",
+   "type": "number",
+   "values": {
+    "Value": {
+     "alias": "OS::Components/Top App Bar/Title Inset"
+    }
+   },
+   "scopes": [
+    "GAP"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "TopAppBarDefaults.TitleInset",
+    "iOS": "Spacing.barTitleInset"
+   }
+  },
+  "Component Specific::Top App Bar/Fill": {
+   "collection": "Component Specific",
+   "name": "Top App Bar/Fill",
+   "type": "color",
+   "values": {
+    "Value": {
+     "alias": "OS::Components/Top App Bar/Fill"
+    }
+   },
+   "scopes": [
+    "FRAME_FILL",
+    "SHAPE_FILL"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "MaterialTheme.colorScheme.surface",
+    "iOS": "Color(.systemGroupedBackground)"
+   }
+  },
+  "Component Specific::Segmented Control/Radius Outer": {
+   "collection": "Component Specific",
+   "name": "Segmented Control/Radius Outer",
+   "type": "number",
+   "values": {
+    "Value": {
+     "alias": "OS::Components/Segmented Control/Radius Outer"
+    }
+   },
+   "scopes": [
+    "CORNER_RADIUS"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "SegmentedButtonDefaults.Shape",
+    "iOS": "SegmentedControl.radiusOuter"
+   }
+  },
+  "Component Specific::Segmented Control/Radius Inner": {
+   "collection": "Component Specific",
+   "name": "Segmented Control/Radius Inner",
+   "type": "number",
+   "values": {
+    "Value": {
+     "alias": "OS::Components/Segmented Control/Radius Inner"
+    }
+   },
+   "scopes": [
+    "CORNER_RADIUS"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "SegmentedButtonDefaults.Shape",
+    "iOS": "SegmentedControl.radiusInner"
+   }
+  },
+  "Component Specific::Segmented Control/Height": {
+   "collection": "Component Specific",
+   "name": "Segmented Control/Height",
+   "type": "number",
+   "values": {
+    "Value": {
+     "alias": "OS::Components/Segmented Control/Height"
+    }
+   },
+   "scopes": [
+    "WIDTH_HEIGHT"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "SegmentedButtonDefaults.MinHeight",
+    "iOS": "SegmentedControl.height"
+   }
+  },
+  "Component Specific::Segmented Control/Padding": {
+   "collection": "Component Specific",
+   "name": "Segmented Control/Padding",
+   "type": "number",
+   "values": {
+    "Value": {
+     "alias": "OS::Components/Segmented Control/Padding"
+    }
+   },
+   "scopes": [
+    "GAP"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "SegmentedButtonDefaults.Padding",
+    "iOS": "SegmentedControl.padding"
+   }
+  },
+  "Component Specific::Toggle/Track Width": {
+   "collection": "Component Specific",
+   "name": "Toggle/Track Width",
+   "type": "number",
+   "values": {
+    "Value": {
+     "alias": "OS::Components/Toggle/Track Width"
+    }
+   },
+   "scopes": [
+    "WIDTH_HEIGHT"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "SwitchDefaults.TrackWidth",
+    "iOS": "Toggle.trackWidth"
+   }
+  },
+  "Component Specific::Toggle/Track Height": {
+   "collection": "Component Specific",
+   "name": "Toggle/Track Height",
+   "type": "number",
+   "values": {
+    "Value": {
+     "alias": "OS::Components/Toggle/Track Height"
+    }
+   },
+   "scopes": [
+    "WIDTH_HEIGHT"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "SwitchDefaults.TrackHeight",
+    "iOS": "Toggle.trackHeight"
+   }
+  },
+  "Component Specific::Toggle/Thumb Size Off": {
+   "collection": "Component Specific",
+   "name": "Toggle/Thumb Size Off",
+   "type": "number",
+   "values": {
+    "Value": {
+     "alias": "OS::Components/Toggle/Thumb Size Off"
+    }
+   },
+   "scopes": [
+    "WIDTH_HEIGHT"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "SwitchDefaults.UncheckedThumbDiameter",
+    "iOS": "Toggle.thumbOff"
+   }
+  },
+  "Component Specific::Toggle/Thumb Size On": {
+   "collection": "Component Specific",
+   "name": "Toggle/Thumb Size On",
+   "type": "number",
+   "values": {
+    "Value": {
+     "alias": "OS::Components/Toggle/Thumb Size On"
+    }
+   },
+   "scopes": [
+    "WIDTH_HEIGHT"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "SwitchDefaults.CheckedThumbDiameter",
+    "iOS": "Toggle.thumbOn"
+   }
+  },
+  "Component Specific::Toggle/Track Border": {
+   "collection": "Component Specific",
+   "name": "Toggle/Track Border",
+   "type": "number",
+   "values": {
+    "Value": {
+     "alias": "OS::Components/Toggle/Track Border"
+    }
+   },
+   "scopes": [
+    "STROKE_FLOAT"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "SwitchDefaults.TrackOutlineWidth",
+    "iOS": "Toggle.trackBorder"
+   }
+  },
+  "Component Specific::Toggle/Thumb Inset Off": {
+   "collection": "Component Specific",
+   "name": "Toggle/Thumb Inset Off",
+   "type": "number",
+   "values": {
+    "Value": {
+     "alias": "OS::Components/Toggle/Thumb Inset Off"
+    }
+   },
+   "scopes": [
+    "GAP"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "SwitchDefaults.UncheckedThumbInset",
+    "iOS": "Toggle.thumbInset"
+   }
+  },
+  "Component Specific::Toggle/Thumb Inset On": {
+   "collection": "Component Specific",
+   "name": "Toggle/Thumb Inset On",
+   "type": "number",
+   "values": {
+    "Value": {
+     "alias": "OS::Components/Toggle/Thumb Inset On"
+    }
+   },
+   "scopes": [
+    "GAP"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "SwitchDefaults.CheckedThumbInset",
+    "iOS": "Toggle.thumbInset"
+   }
+  },
+  "Component Specific::Segmented Control/Border": {
+   "collection": "Component Specific",
+   "name": "Segmented Control/Border",
+   "type": "number",
+   "values": {
+    "Value": {
+     "alias": "OS::Components/Segmented Control/Border"
+    }
+   },
+   "scopes": [
+    "STROKE_FLOAT"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "SegmentedButtonDefaults.BorderWidth",
+    "iOS": "SegmentedControl.border"
+   }
+  },
+  "Component Specific::Checkbox/Glyph": {
+   "collection": "Component Specific",
+   "name": "Checkbox/Glyph",
+   "type": "number",
+   "values": {
+    "Value": {
+     "alias": "OS::Components/Checkbox/Glyph"
+    }
+   },
+   "scopes": [
+    "WIDTH_HEIGHT"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "CheckboxDefaults.IconSize",
+    "iOS": "Checkbox.glyph"
+   }
+  },
+  "Component Specific::Checkbox/Size": {
+   "collection": "Component Specific",
+   "name": "Checkbox/Size",
+   "type": "number",
+   "values": {
+    "Value": {
+     "alias": "OS::Components/Checkbox/Size"
+    }
+   },
+   "scopes": [
+    "WIDTH_HEIGHT"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "CheckboxDefaults.Size",
+    "iOS": "Checkbox.size"
+   }
+  },
+  "Component Specific::Checkbox/Radius": {
+   "collection": "Component Specific",
+   "name": "Checkbox/Radius",
+   "type": "number",
+   "values": {
+    "Value": {
+     "alias": "OS::Components/Checkbox/Radius"
+    }
+   },
+   "scopes": [
+    "CORNER_RADIUS"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "CheckboxDefaults.Shape",
+    "iOS": "Checkbox.radius"
+   }
+  },
+  "Component Specific::Toggle/Thumb Off": {
+   "collection": "Component Specific",
+   "name": "Toggle/Thumb Off",
+   "type": "color",
+   "values": {
+    "Value": {
+     "alias": "OS::Components/Toggle/Thumb Off"
+    }
+   },
+   "scopes": [
+    "FRAME_FILL",
+    "SHAPE_FILL"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "MaterialTheme.colorScheme.outline",
+    "iOS": "Color.white"
+   }
+  },
+  "Component Specific::Toggle/Track Border Color": {
+   "collection": "Component Specific",
+   "name": "Toggle/Track Border Color",
+   "type": "color",
+   "values": {
+    "Value": {
+     "alias": "OS::Components/Toggle/Track Border Color"
+    }
+   },
+   "scopes": [
+    "STROKE_COLOR"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "MaterialTheme.colorScheme.outline",
+    "iOS": "Color.clear"
+   }
+  },
+  "Component Specific::Checkbox/Border": {
+   "collection": "Component Specific",
+   "name": "Checkbox/Border",
+   "type": "number",
+   "values": {
+    "Value": {
+     "alias": "OS::Components/Checkbox/Border"
+    }
+   },
+   "scopes": [
+    "STROKE_FLOAT"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "CheckboxDefaults.StrokeWidth",
+    "iOS": "Checkbox.border"
+   }
+  },
+  "Component Specific::Text Field/Border": {
+   "collection": "Component Specific",
+   "name": "Text Field/Border",
+   "type": "number",
+   "values": {
+    "Value": {
+     "alias": "OS::Components/Text Field/Border"
+    }
+   },
+   "scopes": [
+    "STROKE_FLOAT"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "OutlinedTextFieldDefaults.UnfocusedBorderThickness",
+    "iOS": "TextField.border"
+   }
+  },
+  "Component Specific::Text Field/Border Focused": {
+   "collection": "Component Specific",
+   "name": "Text Field/Border Focused",
+   "type": "number",
+   "values": {
+    "Value": {
+     "alias": "OS::Components/Text Field/Border Focused"
+    }
+   },
+   "scopes": [
+    "STROKE_FLOAT"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "OutlinedTextFieldDefaults.FocusedBorderThickness",
+    "iOS": "TextField.borderFocused"
+   }
+  },
+  "Component Specific::Toggle/Thumb On": {
+   "collection": "Component Specific",
+   "name": "Toggle/Thumb On",
+   "type": "color",
+   "values": {
+    "Value": {
+     "alias": "OS::Components/Toggle/Thumb On"
+    }
+   },
+   "scopes": [
+    "FRAME_FILL",
+    "SHAPE_FILL"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "MaterialTheme.colorScheme.onPrimaryContainer",
+    "iOS": "Color.white"
+   }
+  },
+  "Component Specific::Segmented Control/Track": {
+   "collection": "Component Specific",
+   "name": "Segmented Control/Track",
+   "type": "color",
+   "values": {
+    "Value": {
+     "alias": "OS::Components/Segmented Control/Track"
+    }
+   },
+   "scopes": [
+    "FRAME_FILL",
+    "SHAPE_FILL"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "Color.Transparent",
+    "iOS": "Color(.secondarySystemFill)"
+   }
+  },
+  "Component Specific::Segmented Control/Selected Fill": {
+   "collection": "Component Specific",
+   "name": "Segmented Control/Selected Fill",
+   "type": "color",
+   "values": {
+    "Value": {
+     "alias": "OS::Components/Segmented Control/Selected Fill"
+    }
+   },
+   "scopes": [
+    "FRAME_FILL",
+    "SHAPE_FILL"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "MaterialTheme.colorScheme.secondaryContainer",
+    "iOS": "Color(.systemBackground)"
+   }
+  },
+  "Component Specific::Text Field/Fill": {
+   "collection": "Component Specific",
+   "name": "Text Field/Fill",
+   "type": "color",
+   "values": {
+    "Value": {
+     "alias": "OS::Components/Text Field/Fill"
+    }
+   },
+   "scopes": [
+    "FRAME_FILL",
+    "SHAPE_FILL"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "Color.Transparent",
+    "iOS": "Color(.secondarySystemFill)"
+   }
+  },
+  "OS::Components/Text Field/Label Inset": {
+   "collection": "OS",
+   "name": "Components/Text Field/Label Inset",
+   "type": "number",
+   "values": {
+    "iOS": {
+     "alias": "Primitives::Number/12"
+    },
+    "Android": {
+     "alias": "Primitives::Number/12"
+    }
+   },
+   "scopes": [],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "OutlinedTextFieldDefaults.LabelInset",
+    "iOS": "TextField.labelInset"
+   }
+  },
+  "Component Specific::Text Field/Label Inset": {
+   "collection": "Component Specific",
+   "name": "Text Field/Label Inset",
+   "type": "number",
+   "values": {
+    "Value": {
+     "alias": "OS::Components/Text Field/Label Inset"
+    }
+   },
+   "scopes": [
+    "GAP"
+   ],
+   "description": "",
+   "codeSyntax": {
+    "ANDROID": "OutlinedTextFieldDefaults.LabelInset",
+    "iOS": "TextField.labelInset"
+   }
+  }
+ },
+ "text_styles": [
+  {
+   "name": "Large Title",
+   "description": "Large title, top of a scrolling screen. Bound to OS tokens: iOS / Android role switches with the OS mode, EN / AR with the Language mode.",
+   "font": "SF Pro Bold",
+   "size": 34,
+   "line_height": 41,
+   "letter_spacing": 0,
+   "bound": {
+    "fontSize": "OS::Font Size/Large Title",
+    "fontFamily": "OS::Font Family",
+    "lineHeight": "OS::Line Height/Large Title",
+    "fontWeight": "OS::Font Weight/Large Title"
+   }
+  },
+  {
+   "name": "Title",
+   "description": "Screen and section titles. Bound to OS tokens: iOS / Android role switches with the OS mode, EN / AR with the Language mode.",
+   "font": "SF Pro Bold",
+   "size": 22,
+   "line_height": 28,
+   "letter_spacing": 0,
+   "bound": {
+    "fontSize": "OS::Font Size/Title",
+    "fontFamily": "OS::Font Family",
+    "lineHeight": "OS::Line Height/Title",
+    "fontWeight": "OS::Font Weight/Title"
+   }
+  },
+  {
+   "name": "Headline",
+   "description": "Emphasized row and card titles. Bound to OS tokens: iOS / Android role switches with the OS mode, EN / AR with the Language mode.",
+   "font": "SF Pro Regular",
+   "size": 17,
+   "line_height": 22,
+   "letter_spacing": 0,
+   "bound": {
+    "fontSize": "OS::Font Size/Headline",
+    "fontFamily": "OS::Font Family",
+    "lineHeight": "OS::Line Height/Headline",
+    "fontWeight": "OS::Font Weight/Headline"
+   }
+  },
+  {
+   "name": "Body",
+   "description": "Default reading text, list item titles. Bound to OS tokens: iOS / Android role switches with the OS mode, EN / AR with the Language mode.",
+   "font": "SF Pro Regular",
+   "size": 17,
+   "line_height": 22,
+   "letter_spacing": 0,
+   "bound": {
+    "fontSize": "OS::Font Size/Body",
+    "fontFamily": "OS::Font Family",
+    "lineHeight": "OS::Line Height/Body",
+    "fontWeight": "OS::Font Weight/Body"
+   }
+  },
+  {
+   "name": "Subhead",
+   "description": "Supporting text under a title. Bound to OS tokens: iOS / Android role switches with the OS mode, EN / AR with the Language mode.",
+   "font": "SF Pro Regular",
+   "size": 15,
+   "line_height": 20,
+   "letter_spacing": 0,
+   "bound": {
+    "fontSize": "OS::Font Size/Subhead",
+    "fontFamily": "OS::Font Family",
+    "lineHeight": "OS::Line Height/Subhead",
+    "fontWeight": "OS::Font Weight/Subhead"
+   }
+  },
+  {
+   "name": "Footnote",
+   "description": "Section footers, helper text. Bound to OS tokens: iOS / Android role switches with the OS mode, EN / AR with the Language mode.",
+   "font": "SF Pro Regular",
+   "size": 13,
+   "line_height": 18,
+   "letter_spacing": 0,
+   "bound": {
+    "fontSize": "OS::Font Size/Footnote",
+    "fontFamily": "OS::Font Family",
+    "lineHeight": "OS::Line Height/Footnote",
+    "fontWeight": "OS::Font Weight/Footnote"
+   }
+  },
+  {
+   "name": "Caption",
+   "description": "Labels on small elements. Bound to OS tokens: iOS / Android role switches with the OS mode, EN / AR with the Language mode.",
+   "font": "SF Pro Regular",
+   "size": 12,
+   "line_height": 16,
+   "letter_spacing": 0,
+   "bound": {
+    "fontSize": "OS::Font Size/Caption",
+    "fontFamily": "OS::Font Family",
+    "lineHeight": "OS::Line Height/Caption",
+    "fontWeight": "OS::Font Weight/Caption"
+   }
+  },
+  {
+   "name": "Button Label",
+   "description": "Button and segmented control labels. Bound to OS tokens: iOS / Android role switches with the OS mode, EN / AR with the Language mode.",
+   "font": "SF Pro Regular",
+   "size": 17,
+   "line_height": 22,
+   "letter_spacing": 0,
+   "bound": {
+    "fontSize": "OS::Font Size/Button Label",
+    "fontFamily": "OS::Font Family",
+    "lineHeight": "OS::Line Height/Button Label",
+    "fontWeight": "OS::Font Weight/Button Label"
+   }
+  }
+ ],
+ "effect_styles": [
+  {
+   "name": "Elevation 1",
+   "description": "Android elevation level 1 (cards, raised bars). On iOS the color resolves to Shadow/None (transparent), so no shadow shows.",
+   "effects": [
+    {
+     "type": "DROP_SHADOW",
+     "radius": 3,
+     "offset": {
+      "x": 0,
+      "y": 1
+     },
+     "spread": 0,
+     "color": "#00000000",
+     "bound": {
+      "color": "OS::Shadow/Elevation 1"
+     }
+    }
+   ]
+  }
+ ],
+ "components": [
+  {
+   "name": "Icon/Chevron Right",
+   "type": "COMPONENT",
+   "id": "4:14724",
+   "page": "➜ Icons",
+   "description": "Purpose: Chevron Right icon, one meaning for both platforms.\nUsage Rules: use as an instance (swap through Icon properties). Color comes from Icon tokens (Icon/Primary by default); override only with another Icon token. Size follows Size/Icon (iOS 22, Android 24).\nSources: iOS layer f7:chevron-right (SF Symbols style), Android layer material-symbols:chevron-right. Directional: holds an RTL glyph per platform that shows when Language is AR (Direction/Is RTL).\nAccessibility: decorative unless it is the only content of a control; then the control carries the label. Minimum touch target comes from the parent control (44 iOS / 48 Android).",
+   "variants": {},
+   "properties": {},
+   "defaults": {},
+   "variant_count": 1,
+   "nests": []
+  },
+  {
+   "name": "Icon/Back",
+   "type": "COMPONENT",
+   "id": "4:14735",
+   "page": "➜ Icons",
+   "description": "Purpose: Back icon, one meaning for both platforms.\nUsage Rules: use as an instance (swap through Icon properties). Color comes from Icon tokens (Icon/Primary by default); override only with another Icon token. Size follows Size/Icon (iOS 22, Android 24).\nSources: iOS layer f7:chevron-left (SF Symbols style), Android layer material-symbols:arrow-back. Directional: holds an RTL glyph per platform that shows when Language is AR (Direction/Is RTL).\nAccessibility: decorative unless it is the only content of a control; then the control carries the label. Minimum touch target comes from the parent control (44 iOS / 48 Android).",
+   "variants": {},
+   "properties": {},
+   "defaults": {},
+   "variant_count": 1,
+   "nests": []
+  },
+  {
+   "name": "Icon/Search",
+   "type": "COMPONENT",
+   "id": "4:14746",
+   "page": "➜ Icons",
+   "description": "Purpose: Search icon, one meaning for both platforms.\nUsage Rules: use as an instance (swap through Icon properties). Color comes from Icon tokens (Icon/Primary by default); override only with another Icon token. Size follows Size/Icon (iOS 22, Android 24).\nSources: iOS layer f7:search (SF Symbols style), Android layer material-symbols:search.\nAccessibility: decorative unless it is the only content of a control; then the control carries the label. Minimum touch target comes from the parent control (44 iOS / 48 Android).",
+   "variants": {},
+   "properties": {},
+   "defaults": {},
+   "variant_count": 1,
+   "nests": []
+  },
+  {
+   "name": "Icon/Settings",
+   "type": "COMPONENT",
+   "id": "4:14751",
+   "page": "➜ Icons",
+   "description": "Purpose: Settings icon, one meaning for both platforms.\nUsage Rules: use as an instance (swap through Icon properties). Color comes from Icon tokens (Icon/Primary by default); override only with another Icon token. Size follows Size/Icon (iOS 22, Android 24).\nSources: iOS layer f7:gear-alt (SF Symbols style), Android layer material-symbols:settings-outline.\nAccessibility: decorative unless it is the only content of a control; then the control carries the label. Minimum touch target comes from the parent control (44 iOS / 48 Android).",
+   "variants": {},
+   "properties": {},
+   "defaults": {},
+   "variant_count": 1,
+   "nests": []
+  },
+  {
+   "name": "Icon/Notifications",
+   "type": "COMPONENT",
+   "id": "4:14756",
+   "page": "➜ Icons",
+   "description": "Purpose: Notifications icon, one meaning for both platforms.\nUsage Rules: use as an instance (swap through Icon properties). Color comes from Icon tokens (Icon/Primary by default); override only with another Icon token. Size follows Size/Icon (iOS 22, Android 24).\nSources: iOS layer f7:bell (SF Symbols style), Android layer material-symbols:notifications-outline.\nAccessibility: decorative unless it is the only content of a control; then the control carries the label. Minimum touch target comes from the parent control (44 iOS / 48 Android).",
+   "variants": {},
+   "properties": {},
+   "defaults": {},
+   "variant_count": 1,
+   "nests": []
+  },
+  {
+   "name": "Icon/Lock",
+   "type": "COMPONENT",
+   "id": "4:14761",
+   "page": "➜ Icons",
+   "description": "Purpose: Lock icon, one meaning for both platforms.\nUsage Rules: use as an instance (swap through Icon properties). Color comes from Icon tokens (Icon/Primary by default); override only with another Icon token. Size follows Size/Icon (iOS 22, Android 24).\nSources: iOS layer f7:lock (SF Symbols style), Android layer material-symbols:lock-outline.\nAccessibility: decorative unless it is the only content of a control; then the control carries the label. Minimum touch target comes from the parent control (44 iOS / 48 Android).",
+   "variants": {},
+   "properties": {},
+   "defaults": {},
+   "variant_count": 1,
+   "nests": []
+  },
+  {
+   "name": "Icon/Person",
+   "type": "COMPONENT",
+   "id": "4:14766",
+   "page": "➜ Icons",
+   "description": "Purpose: Person icon, one meaning for both platforms.\nUsage Rules: use as an instance (swap through Icon properties). Color comes from Icon tokens (Icon/Primary by default); override only with another Icon token. Size follows Size/Icon (iOS 22, Android 24).\nSources: iOS layer f7:person-crop-circle (SF Symbols style), Android layer material-symbols:account-circle-outline.\nAccessibility: decorative unless it is the only content of a control; then the control carries the label. Minimum touch target comes from the parent control (44 iOS / 48 Android).",
+   "variants": {},
+   "properties": {},
+   "defaults": {},
+   "variant_count": 1,
+   "nests": []
+  },
+  {
+   "name": "Icon/Check",
+   "type": "COMPONENT",
+   "id": "4:14771",
+   "page": "➜ Icons",
+   "description": "Purpose: Check icon, one meaning for both platforms.\nUsage Rules: use as an instance (swap through Icon properties). Color comes from Icon tokens (Icon/Primary by default); override only with another Icon token. Size follows Size/Icon (iOS 22, Android 24).\nSources: iOS layer f7:checkmark-alt (SF Symbols style), Android layer material-symbols:check.\nAccessibility: decorative unless it is the only content of a control; then the control carries the label. Minimum touch target comes from the parent control (44 iOS / 48 Android).",
+   "variants": {},
+   "properties": {},
+   "defaults": {},
+   "variant_count": 1,
+   "nests": []
+  },
+  {
+   "name": "Icon/Close",
+   "type": "COMPONENT",
+   "id": "4:14776",
+   "page": "➜ Icons",
+   "description": "Purpose: Close icon, one meaning for both platforms.\nUsage Rules: use as an instance (swap through Icon properties). Color comes from Icon tokens (Icon/Primary by default); override only with another Icon token. Size follows Size/Icon (iOS 22, Android 24).\nSources: iOS layer f7:xmark (SF Symbols style), Android layer material-symbols:close.\nAccessibility: decorative unless it is the only content of a control; then the control carries the label. Minimum touch target comes from the parent control (44 iOS / 48 Android).",
+   "variants": {},
+   "properties": {},
+   "defaults": {},
+   "variant_count": 1,
+   "nests": []
+  },
+  {
+   "name": "Icon/Globe",
+   "type": "COMPONENT",
+   "id": "4:14781",
+   "page": "➜ Icons",
+   "description": "Purpose: Globe icon, one meaning for both platforms.\nUsage Rules: use as an instance (swap through Icon properties). Color comes from Icon tokens (Icon/Primary by default); override only with another Icon token. Size follows Size/Icon (iOS 22, Android 24).\nSources: iOS layer f7:globe (SF Symbols style), Android layer material-symbols:language.\nAccessibility: decorative unless it is the only content of a control; then the control carries the label. Minimum touch target comes from the parent control (44 iOS / 48 Android).",
+   "variants": {},
+   "properties": {},
+   "defaults": {},
+   "variant_count": 1,
+   "nests": []
+  },
+  {
+   "name": "Icon/Moon",
+   "type": "COMPONENT",
+   "id": "4:14786",
+   "page": "➜ Icons",
+   "description": "Purpose: Moon icon, one meaning for both platforms.\nUsage Rules: use as an instance (swap through Icon properties). Color comes from Icon tokens (Icon/Primary by default); override only with another Icon token. Size follows Size/Icon (iOS 22, Android 24).\nSources: iOS layer f7:moon (SF Symbols style), Android layer material-symbols:dark-mode-outline.\nAccessibility: decorative unless it is the only content of a control; then the control carries the label. Minimum touch target comes from the parent control (44 iOS / 48 Android).",
+   "variants": {},
+   "properties": {},
+   "defaults": {},
+   "variant_count": 1,
+   "nests": []
+  },
+  {
+   "name": "Button",
+   "type": "COMPONENT_SET",
+   "id": "9:27861",
+   "page": "➜ Button",
+   "description": "Purpose: Main action on a screen (Primary), alternative actions (Secondary), low emphasis or inline actions (Text).\nUsage Rules: One Primary per screen. Label is a verb, sentence case, 1-3 words. Leading Icon only when it adds meaning. Use Text for actions in bars and dialogs. Platform look (height, radius, label style) comes from the OS mode, never from a separate component.\nAccessibility: Touch target at least 44x44 (iOS) / 48x48 (Android): the 40px Android button needs 4px extra hit area. Primary label on the yellow fill uses Label/On Accent (14.7:1); Text label uses Label/Accent (4.7:1 on white). Disabled is not announced as actionable.",
+   "variants": {
+    "Variant": [
+     "Primary",
+     "Secondary",
+     "Text"
+    ],
+    "State": [
+     "Default",
+     "Pressed",
+     "Disabled"
+    ]
+   },
+   "properties": {
+    "Label": "TEXT",
+    "Leading Icon": "BOOLEAN",
+    "Icon": "INSTANCE_SWAP"
+   },
+   "defaults": {
+    "Label": "Button",
+    "Leading Icon": false,
+    "Icon": "Icon/Check",
+    "Variant": "Primary",
+    "State": "Default"
+   },
+   "variant_count": 9,
+   "nests": [
+    "Icon/Check"
+   ]
+  },
+  {
+   "name": "Icon Button",
+   "type": "COMPONENT_SET",
+   "id": "4:15444",
+   "page": "➜ Icon Button",
+   "description": "Purpose: Compact action shown only as an icon (toolbar and top bar actions, close, search).\nUsage Rules: Use only for icons whose meaning is universal (search, close, settings, back); otherwise use Button with a label. Standard in bars, Filled for one prominent floating action. Swap the icon through the Icon property, never detach.\nAccessibility: Size equals the platform touch target (44 iOS / 48 Android). Needs an accessibility label in code (the icon has no text). Disabled uses State/Disabled Opacity (0.4 iOS / 0.38 Android).",
+   "variants": {
+    "Variant": [
+     "Standard",
+     "Filled"
+    ],
+    "State": [
+     "Default",
+     "Pressed",
+     "Disabled"
+    ]
+   },
+   "properties": {
+    "Icon": "INSTANCE_SWAP"
+   },
+   "defaults": {
+    "Icon": "Icon/Settings",
+    "Variant": "Standard",
+    "State": "Default"
+   },
+   "variant_count": 6,
+   "nests": [
+    "Icon/Settings"
+   ]
+  },
+  {
+   "name": "Segment",
+   "type": "COMPONENT_SET",
+   "id": "9:27895",
+   "page": "➜ Segmented Control",
+   "description": "Purpose: One option inside a Segmented Control. Not used on its own.\nUsage Rules: Only inside Segmented Control. Label 1-2 words, no icons except the Android selected check (automatic).\nAccessibility: Selected state is not color-only: iOS adds a raised pill, Android adds a check icon.",
+   "variants": {
+    "Selected": [
+     "Yes",
+     "No"
+    ]
+   },
+   "properties": {
+    "Label": "TEXT"
+   },
+   "defaults": {
+    "Label": "Segment",
+    "Selected": "Yes"
+   },
+   "variant_count": 2,
+   "nests": [
+    "Icon/Check"
+   ]
+  },
+  {
+   "name": "Segmented Control",
+   "type": "COMPONENT",
+   "id": "9:27896",
+   "page": "➜ Segmented Control",
+   "description": "Purpose: Switches between 2-4 views or filters of the same content.\nUsage Rules: Use 2-4 segments with short labels of similar length; more options -> Tabs or Select. Exactly one segment selected (set Selected on the exposed Segment). Not for actions (use Button) or settings (use Toggle).\nAccessibility: Each segment is at least 44 (iOS: 32 control + list padding) / 48 Android touch target in context. Selected state uses shape and icon, not only color. Labels via the exposed Segment Label properties.",
+   "variants": {},
+   "properties": {
+    "Show Segment 4": "BOOLEAN",
+    "Show Segment 3": "BOOLEAN"
+   },
+   "defaults": {
+    "Show Segment 4": false,
+    "Show Segment 3": true
+   },
+   "variant_count": 1,
+   "nests": [
+    "Segment",
+    "Icon/Check"
+   ]
+  },
+  {
+   "name": "_Top App Bar Platform",
+   "type": "COMPONENT_SET",
+   "id": "9:28482",
+   "page": "➜ Top App Bar",
+   "description": "Purpose: Private: platform anatomies of Top App Bar. Do not use directly.\nUsage Rules: Use the Top App Bar wrapper; it picks the Platform variant from the OS mode.\nAccessibility: See Top App Bar.",
+   "variants": {
+    "Platform": [
+     "iOS",
+     "Android"
+    ]
+   },
+   "properties": {
+    "Title": "TEXT",
+    "Show Back": "BOOLEAN",
+    "Back Label": "TEXT",
+    "Show Action": "BOOLEAN",
+    "Large Title": "BOOLEAN",
+    "Show Inline Title": "BOOLEAN"
+   },
+   "defaults": {
+    "Title": "Title",
+    "Show Back": true,
+    "Back Label": "Back",
+    "Show Action": true,
+    "Large Title": false,
+    "Show Inline Title": true,
+    "Platform": "iOS"
+   },
+   "variant_count": 2,
+   "nests": [
+    "Icon/Back",
+    "Icon Button",
+    "Icon/Settings"
+   ]
+  },
+  {
+   "name": "Top App Bar",
+   "type": "COMPONENT",
+   "id": "9:28483",
+   "page": "➜ Top App Bar",
+   "description": "Purpose: Top of every screen: title, back navigation and up to one action.\nUsage Rules: Always use this wrapper (never the private set). Platform anatomy comes from the OS mode: iOS centered title with text back button and optional Large Title; Android left title with back arrow. Title 1-3 words. Show Action only for the screen's main secondary action.\nAccessibility: Back and Action targets are 44 iOS / 48 Android. Title uses Headline (iOS) / Title Large (Android) on Surface/Top Bar (contrast 15:1+). Back Label is announced as \"Back\" on iOS.",
+   "variants": {},
+   "properties": {},
+   "defaults": {},
+   "variant_count": 1,
+   "nests": [
+    "_Top App Bar Platform",
+    "Icon/Back",
+    "Icon Button",
+    "Icon/Settings"
+   ]
+  },
+  {
+   "name": "Toggle",
+   "type": "COMPONENT_SET",
+   "id": "4:15484",
+   "page": "➜ Toggle",
+   "description": "Purpose: Turns a single setting on or off with immediate effect.\nUsage Rules: Use in List Item trailing for settings that apply at once; use Checkbox for choices confirmed later or for multi-select. Never pair with a Save button. Label lives in the List Item title, not inside the toggle.\nAccessibility: Track meets the touch target only inside a List Item (44 iOS / 48 Android row). The yellow On track against white is 1.4:1, below the 3:1 non-text contrast guideline: state is also shown by thumb position, and Android adds a dark thumb (Fill/On Accent). Disabled uses State/Disabled Opacity.",
+   "variants": {
+    "Value": [
+     "On",
+     "Off"
+    ],
+    "State": [
+     "Default",
+     "Disabled"
+    ]
+   },
+   "properties": {},
+   "defaults": {
+    "Value": "On",
+    "State": "Default"
+   },
+   "variant_count": 4,
+   "nests": []
+  },
+  {
+   "name": "Checkbox",
+   "type": "COMPONENT_SET",
+   "id": "4:15524",
+   "page": "➜ Checkbox",
+   "description": "Purpose: Selects one or more items from a list, or confirms an option before submitting.\nUsage Rules: Use for multi-select and for options confirmed by a later action; use Toggle for settings that apply at once and Radio (2-6 options) or Select (7+) for single choice. Label lives in the List Item title.\nAccessibility: Touch target comes from the List Item row (44 iOS / 48 Android); the box itself is 22 / 18. Check glyph on the yellow fill uses Icon/On Accent (14.7:1). Unchecked border uses Border/Strong (3:1+ on surfaces).",
+   "variants": {
+    "Value": [
+     "Checked",
+     "Unchecked"
+    ],
+    "State": [
+     "Default",
+     "Disabled"
+    ]
+   },
+   "properties": {},
+   "defaults": {
+    "Value": "Checked",
+    "State": "Default"
+   },
+   "variant_count": 4,
+   "nests": [
+    "Icon/Check"
+   ]
+  },
+  {
+   "name": "Text Field",
+   "type": "COMPONENT_SET",
+   "id": "9:28190",
+   "page": "➜ Text Field",
+   "description": "Purpose: Single-line text entry in forms and settings (names, email, search terms).\nUsage Rules: Always set Label (it shows above the field on iOS and on the border on Android: never use placeholder as the label). Helper Text explains format; Error state replaces it with the error message. Trailing Close clears the value. Use Select for 7+ fixed options, Radio for 2-6. RTL (Language AR) mirrors icons and aligns text to the right automatically.\nAccessibility: Height 44 iOS / 56 Android (meets touch targets). Label and helper text use Label/Secondary (4.5:1+). Error is shown by text and border color, not color alone. Android floating label background follows Surface/Screen; place the field on that surface.",
+   "variants": {
+    "State": [
+     "Default",
+     "Focused",
+     "Error",
+     "Disabled"
+    ]
+   },
+   "properties": {
+    "Label": "TEXT",
+    "Value": "TEXT",
+    "Helper Text": "TEXT",
+    "Show Helper Text": "BOOLEAN",
+    "Leading Icon": "BOOLEAN",
+    "Leading Icon Swap": "INSTANCE_SWAP",
+    "Trailing Icon": "BOOLEAN",
+    "Trailing Icon Swap": "INSTANCE_SWAP"
+   },
+   "defaults": {
+    "Label": "Display name",
+    "Value": "Abdul",
+    "Helper Text": "Shown on your profile",
+    "Show Helper Text": true,
+    "Leading Icon": false,
+    "Leading Icon Swap": "Icon/Person",
+    "Trailing Icon": true,
+    "Trailing Icon Swap": "Icon/Close",
+    "State": "Default"
+   },
+   "variant_count": 4,
+   "nests": [
+    "Icon/Person",
+    "Icon/Close"
+   ]
+  },
+  {
+   "name": "List Item",
+   "type": "COMPONENT_SET",
+   "id": "9:28375",
+   "page": "➜ List Item",
+   "description": "Purpose: One row in a list or settings group: navigates (Chevron, Value), toggles a setting (Toggle) or selects (Checkbox).\nUsage Rules: Stack rows in a group with no gap; turn Show Separator off on the last row of a group. Chevron/Value rows open a new screen (chevron shows on iOS only, Android uses the whole row). Toggle rows apply at once. Title 1 line, Supporting Text up to 2 lines. In RTL the row mirrors automatically; the exposed Toggle/Checkbox exist once per direction (set both when overriding).\nAccessibility: Whole row is the touch target (44 iOS / 56 Android). Toggle and Checkbox take their label from Title. Title Label/Primary, supporting and value text Label/Secondary (4.5:1+).",
+   "variants": {
+    "Trailing": [
+     "Chevron",
+     "Value",
+     "Toggle",
+     "Checkbox",
+     "None"
+    ]
+   },
+   "properties": {
+    "Title": "TEXT",
+    "Supporting Text": "TEXT",
+    "Show Supporting Text": "BOOLEAN",
+    "Value": "TEXT",
+    "Leading Icon": "BOOLEAN",
+    "Leading Icon Swap": "INSTANCE_SWAP",
+    "Show Separator": "BOOLEAN"
+   },
+   "defaults": {
+    "Title": "Title",
+    "Supporting Text": "Supporting text",
+    "Show Supporting Text": false,
+    "Value": "English",
+    "Leading Icon": true,
+    "Leading Icon Swap": "Icon/Settings",
+    "Show Separator": true,
+    "Trailing": "Chevron"
+   },
+   "variant_count": 5,
+   "nests": [
+    "Icon/Settings",
+    "Icon/Chevron Right",
+    "Toggle",
+    "Checkbox",
+    "Icon/Check"
+   ]
+  },
+  {
+   "name": "Pattern/Settings Screen",
+   "type": "COMPONENT",
+   "id": "9:28729",
+   "page": "➜ Settings",
+   "description": "Purpose: Reference Settings screen for the one-file native method: the same screen renders as iOS or Android through the OS mode.\nUsage Rules: Build screens from DS instances only. Set OS, Color and Language modes on the screen frame; never detach to fake a platform.\nAccessibility: Touch targets and contrast come from the components.",
+   "variants": {},
+   "properties": {},
+   "defaults": {},
+   "variant_count": 1,
+   "nests": [
+    "Top App Bar",
+    "_Top App Bar Platform",
+    "Icon/Back",
+    "Icon Button",
+    "Icon/Settings",
+    "Text Field",
+    "Icon/Person",
+    "Icon/Close",
+    "Segmented Control",
+    "Segment",
+    "Icon/Check",
+    "List Item",
+    "Icon/Notifications",
+    "Toggle",
+    "Icon/Moon",
+    "Icon/Globe",
+    "Icon/Chevron Right",
+    "Icon/Lock",
+    "Button"
+   ]
+  }
+ ],
+ "pages": [
+  "Cover",
+  "⭐Setup",
+  "➜ Colors",
+  "➜ Typography",
+  "➜ Platform Tokens",
+  "➜ Icons",
+  "➜ Platform Preview",
+  "⭐Navigation",
+  "➜ Button",
+  "➜ Icon Button",
+  "➜ Segmented Control",
+  "➜ Top App Bar",
+  "⭐Form Elements",
+  "➜ Toggle",
+  "➜ Checkbox",
+  "➜ Text Field",
+  "⭐Data Display",
+  "➜ List Item",
+  "⭐Pilot Screens",
+  "➜ Settings"
+ ]
+}

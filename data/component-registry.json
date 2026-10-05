@@ -1,562 +1,953 @@
 {
-  "meta": {
-    "platform": "Mobile Adaptive",
-    "project": "Native One File Pilot",
-    "figma_file": "Native One File Pilot Design System",
-    "figma_url": "https://www.figma.com/design/a2EAdCeKeaXN679TMNlIev",
-    "theme": "Color Light/Dark x OS iOS/Android x Language EN/AR (modes, no variants)",
-    "source": {
-      "method": "Claude pilot extraction + Codex scoped Profile update from FigCli Yolo",
-      "extracted_at": "2026-10-05",
-      "needs_resync": false
-    }
-  },
-  "components": [
-    {
-      "name": "Button",
-      "group": "Navigation",
-      "page": "➜ Button",
-      "tier": "Atom",
-      "variants": {
-        "Variant": [
-          "Primary",
-          "Secondary",
-          "Text"
-        ],
-        "State": [
-          "Default",
-          "Pressed",
-          "Disabled"
-        ]
-      },
-      "properties": {
-        "Label": "TEXT",
-        "Leading Icon": "BOOLEAN",
-        "Icon": "INSTANCE_SWAP"
-      },
-      "defaults": {
-        "Label": "Button",
-        "Leading Icon": false,
-        "Icon": "Icon/Check",
-        "Variant": "Primary",
-        "State": "Default"
-      },
-      "variant_count": 9,
-      "use": "Main action on a screen (Primary), alternative actions (Secondary), low emphasis or inline actions (Text).",
-      "nests": [
-        "Icon/Check"
-      ]
-    },
-    {
-      "name": "Icon Button",
-      "group": "Navigation",
-      "page": "➜ Icon Button",
-      "tier": "Atom",
-      "variants": {
-        "Variant": [
-          "Standard",
-          "Filled"
-        ],
-        "State": [
-          "Default",
-          "Pressed",
-          "Disabled"
-        ]
-      },
-      "properties": {
-        "Icon": "INSTANCE_SWAP"
-      },
-      "defaults": {
-        "Icon": "Icon/Settings",
-        "Variant": "Standard",
-        "State": "Default"
-      },
-      "variant_count": 6,
-      "use": "Compact action shown only as an icon (toolbar and top bar actions, close, search).",
-      "nests": [
-        "Icon/Settings"
-      ]
-    },
-    {
-      "name": "Segment",
-      "group": "Navigation",
-      "page": "➜ Segmented Control",
-      "tier": "Atom",
-      "variants": {
-        "Selected": [
-          "Yes",
-          "No"
-        ]
-      },
-      "properties": {
-        "Label": "TEXT"
-      },
-      "defaults": {
-        "Label": "Segment",
-        "Selected": "Yes"
-      },
-      "variant_count": 2,
-      "use": "One option inside a Segmented Control. Not used on its own.",
-      "nests": [
-        "Icon/Check"
-      ]
-    },
-    {
-      "name": "Segmented Control",
-      "group": "Navigation",
-      "page": "➜ Segmented Control",
-      "tier": "Molecule",
-      "variants": {},
-      "properties": {
-        "Show Segment 4": "BOOLEAN",
-        "Show Segment 3": "BOOLEAN"
-      },
-      "defaults": {
-        "Show Segment 4": false,
-        "Show Segment 3": true
-      },
-      "variant_count": 1,
-      "use": "Switches between 2-4 views or filters of the same content.",
-      "nests": [
-        "Segment",
-        "Icon/Check"
-      ]
-    },
-    {
-      "name": "Top App Bar",
-      "group": "Navigation",
-      "page": "➜ Top App Bar",
-      "tier": "Organism",
-      "variants": {},
-      "properties": {
-        "Title": "TEXT",
-        "Show Back": "BOOLEAN",
-        "Back Label": "TEXT",
-        "Show Action": "BOOLEAN",
-        "Large Title": "BOOLEAN",
-        "Show Inline Title": "BOOLEAN"
-      },
-      "defaults": {
-        "Title": "Title",
-        "Show Back": true,
-        "Back Label": "Back",
-        "Show Action": true,
-        "Large Title": false,
-        "Show Inline Title": true
-      },
-      "variant_count": 1,
-      "use": "Top of every screen: title, back navigation and up to one action.",
-      "nests": [
-        "_Top App Bar Platform",
-        "Icon/Back",
-        "Icon Button",
-        "Icon/Settings"
-      ],
-      "issues": [
-        "Properties are exposed from the nested private set _Top App Bar Platform; its Platform variant is bound to OS::Platform/Name."
-      ]
-    },
-    {
-      "name": "Toggle",
-      "group": "Form Elements",
-      "page": "➜ Toggle",
-      "tier": "Atom",
-      "variants": {
-        "Value": [
-          "On",
-          "Off"
-        ],
-        "State": [
-          "Default",
-          "Disabled"
-        ]
-      },
-      "properties": {},
-      "defaults": {
-        "Value": "On",
-        "State": "Default"
-      },
-      "variant_count": 4,
-      "use": "Turns a single setting on or off with immediate effect.",
-      "nests": []
-    },
-    {
-      "name": "Checkbox",
-      "group": "Form Elements",
-      "page": "➜ Checkbox",
-      "tier": "Atom",
-      "variants": {
-        "Value": [
-          "Checked",
-          "Unchecked"
-        ],
-        "State": [
-          "Default",
-          "Disabled"
-        ]
-      },
-      "properties": {},
-      "defaults": {
-        "Value": "Checked",
-        "State": "Default"
-      },
-      "variant_count": 4,
-      "use": "Selects one or more items from a list, or confirms an option before submitting.",
-      "nests": [
-        "Icon/Check"
-      ]
-    },
-    {
-      "name": "Text Field",
-      "group": "Form Elements",
-      "page": "➜ Text Field",
-      "tier": "Molecule",
-      "variants": {
-        "State": [
-          "Default",
-          "Focused",
-          "Error",
-          "Disabled"
-        ]
-      },
-      "properties": {
-        "Label": "TEXT",
-        "Value": "TEXT",
-        "Helper Text": "TEXT",
-        "Show Helper Text": "BOOLEAN",
-        "Leading Icon": "BOOLEAN",
-        "Leading Icon Swap": "INSTANCE_SWAP",
-        "Trailing Icon": "BOOLEAN",
-        "Trailing Icon Swap": "INSTANCE_SWAP"
-      },
-      "defaults": {
-        "Label": "Display name",
-        "Value": "Abdul",
-        "Helper Text": "Shown on your profile",
-        "Show Helper Text": true,
-        "Leading Icon": false,
-        "Leading Icon Swap": "Icon/Person",
-        "Trailing Icon": true,
-        "Trailing Icon Swap": "Icon/Close",
-        "State": "Default"
-      },
-      "variant_count": 4,
-      "use": "Single-line text entry in forms and settings (names, email, search terms).",
-      "nests": [
-        "Icon/Person",
-        "Icon/Close"
-      ]
-    },
-    {
-      "name": "List Item",
-      "group": "Data Display",
-      "page": "➜ List Item",
-      "tier": "Molecule",
-      "variants": {
-        "Trailing": [
-          "Chevron",
-          "Value",
-          "Toggle",
-          "Checkbox",
-          "None"
-        ]
-      },
-      "properties": {
-        "Title": "TEXT",
-        "Supporting Text": "TEXT",
-        "Show Supporting Text": "BOOLEAN",
-        "Value": "TEXT",
-        "Leading Icon": "BOOLEAN",
-        "Leading Icon Swap": "INSTANCE_SWAP",
-        "Show Separator": "BOOLEAN"
-      },
-      "defaults": {
-        "Title": "Title",
-        "Supporting Text": "Supporting text",
-        "Show Supporting Text": false,
-        "Value": "English",
-        "Leading Icon": true,
-        "Leading Icon Swap": "Icon/Settings",
-        "Show Separator": true,
-        "Trailing": "Chevron"
-      },
-      "variant_count": 5,
-      "use": "One row in a list or settings group: navigates (Chevron, Value), toggles a setting (Toggle) or selects (Checkbox).",
-      "nests": [
-        "Icon/Settings",
-        "Icon/Chevron Right",
-        "Toggle",
-        "Checkbox",
-        "Icon/Check"
-      ]
-    },
-    {
-      "name": "Pattern/Settings Screen",
-      "group": "Patterns",
-      "page": "➜ Settings",
-      "tier": "Pattern",
-      "variants": {},
-      "properties": {},
-      "defaults": {},
-      "variant_count": 1,
-      "use": "Reference Settings screen for the one-file native method: the same screen renders as iOS or Android through the OS mode.",
-      "nests": [
-        "Top App Bar",
-        "_Top App Bar Platform",
-        "Icon/Back",
-        "Icon Button",
-        "Icon/Settings",
-        "Text Field",
-        "Icon/Person",
-        "Icon/Close",
-        "Segmented Control",
-        "Segment",
-        "Icon/Check",
-        "List Item",
-        "Icon/Notifications",
-        "Toggle",
-        "Icon/Moon",
-        "Icon/Globe",
-        "Icon/Chevron Right",
-        "Icon/Lock",
-        "Button"
-      ]
-    },
-    {
-      "name": "Avatar",
-      "group": "Data Display",
-      "page": "➜ Avatar",
-      "tier": "Atom",
-      "variants": {},
-      "properties": {
-        "Initials": "TEXT"
-      },
-      "defaults": {
-        "Initials": "AS"
-      },
-      "variant_count": 1,
-      "use": "Initials identity fallback next to an account name.",
-      "nests": [],
-      "issues": [
-        "Avatar size aliases need user approval; see profile audit."
-      ]
-    },
-    {
-      "name": "Profile Header",
-      "group": "Data Display",
-      "page": "➜ Profile Header",
-      "tier": "Organism",
-      "variants": {},
-      "properties": {
-        "Display name": "TEXT",
-        "Email": "TEXT"
-      },
-      "defaults": {
-        "Display name": "Abdul Salah",
-        "Email": "abdul@example.com"
-      },
-      "variant_count": 1,
-      "use": "Account identity with Edit profile action.",
-      "nests": [
-        "Avatar",
-        "Button"
-      ],
-      "issues": [
-        "Android Button expanded touch area pending token approval."
-      ]
-    },
-    {
-      "name": "Pattern/Profile Screen",
-      "group": "Patterns",
-      "page": "➜ Profile",
-      "tier": "Pattern",
-      "variants": {},
-      "properties": {
-        "Personal section title": "TEXT",
-        "Account section title": "TEXT"
-      },
-      "defaults": {
-        "Personal section title": "Personal information",
-        "Account section title": "Account"
-      },
-      "variant_count": 1,
-      "use": "Native account profile with eight OS/Color/Language previews.",
-      "nests": [
-        "Top App Bar",
-        "Profile Header",
-        "List Item",
-        "Button"
-      ],
-      "issues": [
-        "Two profile audit decisions pending; user review pending."
-      ]
-    }
-  ],
-  "private_components": [
-    {
-      "name": "_Top App Bar Platform",
-      "variants": {
-        "Platform": [
-          "iOS",
-          "Android"
-        ]
-      },
-      "note": "Private: used only inside Top App Bar."
-    }
-  ],
-  "icons": {
-    "page": "➜ Icons",
-    "set": "SF Symbols style (iOS layer) + Material Symbols (Android layer)",
-    "naming": "Icon/<Name>",
-    "size": "22 iOS / 24 Android",
-    "color": "Glyph fill bound to Icon/* tokens",
-    "names": [
-      "Chevron Right",
-      "Back",
-      "Search",
-      "Settings",
-      "Notifications",
-      "Lock",
-      "Person",
-      "Check",
-      "Close",
-      "Globe",
-      "Moon"
+ "meta": {
+  "platform": "Mobile Adaptive",
+  "project": "Native One File Pilot",
+  "figma_file": "Native One File Pilot Design System",
+  "figma_url": "https://www.figma.com/design/a2EAdCeKeaXN679TMNlIev",
+  "theme": "Color Light/Dark x OS iOS/Android x Language EN/AR (modes, no variants)",
+  "source": {
+   "method": "Claude pilot extraction + Codex scoped Profile update from FigCli Yolo",
+   "extracted_at": "2026-10-05",
+   "needs_resync": false
+  }
+ },
+ "components": [
+  {
+   "name": "Button",
+   "group": "Navigation",
+   "page": "➜ Button",
+   "tier": "Atom",
+   "variants": {
+    "Variant": [
+     "Primary",
+     "Secondary",
+     "Text"
+    ],
+    "State": [
+     "Default",
+     "Pressed",
+     "Disabled"
     ]
+   },
+   "properties": {
+    "Label": "TEXT",
+    "Leading Icon": "BOOLEAN",
+    "Icon": "INSTANCE_SWAP"
+   },
+   "defaults": {
+    "Label": "Button",
+    "Leading Icon": false,
+    "Icon": "Icon/Check",
+    "Variant": "Primary",
+    "State": "Default"
+   },
+   "variant_count": 9,
+   "use": "Main action on a screen (Primary), alternative actions (Secondary), low emphasis or inline actions (Text).",
+   "nests": [
+    "Icon/Check"
+   ],
+   "docs": {
+    "use_cases": [
+     "Save changes at the end of a settings screen",
+     "Confirm or continue in a flow",
+     "Secondary choice next to the main action",
+     "Low-emphasis action inside a bar or dialog"
+    ],
+    "when_to_use": [
+     "One Primary button for the main action of the screen",
+     "Secondary for an alternative action next to it",
+     "Text for low-emphasis actions in bars and dialogs"
+    ],
+    "when_not_to_use": [
+     "Icon-only actions (use Icon Button)",
+     "Moving to another screen from a list row (use List Item)",
+     "Turning a setting on or off (use Toggle)"
+    ],
+    "guidelines": [
+     {
+      "do": "Keep one Primary button per screen for the main action.",
+      "dont": "Put two Primary buttons next to each other.",
+      "do_args": {
+       "Variant": "Primary",
+       "Label": "Save changes"
+      },
+      "dont_args": {
+       "Variant": "Primary",
+       "Label": "Cancel"
+      }
+     },
+     {
+      "do": "Write the label as a short verb in sentence case.",
+      "dont": "Write long or all-caps labels.",
+      "do_args": {
+       "Variant": "Secondary",
+       "Label": "Edit profile"
+      },
+      "dont_args": {
+       "Variant": "Secondary",
+       "Label": "CLICK HERE TO EDIT YOUR PROFILE"
+      }
+     },
+     {
+      "do": "Add a Leading Icon only when it adds meaning.",
+      "dont": "Add an icon just to decorate the button.",
+      "do_args": {
+       "Variant": "Primary",
+       "Label": "Done",
+       "Leading Icon": true,
+       "Icon": "Icon/Check"
+      },
+      "dont_args": {
+       "Variant": "Text",
+       "Label": "Privacy",
+       "Leading Icon": true,
+       "Icon": "Icon/Moon"
+      }
+     }
+    ],
+    "content": [
+     "Sentence case",
+     "Start with a verb",
+     "1 to 3 words"
+    ]
+   }
   },
-  "text_styles": [
-    {
-      "name": "Large Title",
-      "description": "Large title, top of a scrolling screen. Bound to OS tokens: iOS / Android role switches with the OS mode, EN / AR with the Language mode.",
-      "font": "SF Pro Bold",
-      "size": 34,
-      "line_height": 41,
-      "letter_spacing": 0,
-      "bound": {
-        "fontSize": "OS::Font Size/Large Title",
-        "fontFamily": "OS::Font Family",
-        "lineHeight": "OS::Line Height/Large Title",
-        "fontWeight": "OS::Font Weight/Large Title"
+  {
+   "name": "Icon Button",
+   "group": "Navigation",
+   "page": "➜ Icon Button",
+   "tier": "Atom",
+   "variants": {
+    "Variant": [
+     "Standard",
+     "Filled"
+    ],
+    "State": [
+     "Default",
+     "Pressed",
+     "Disabled"
+    ]
+   },
+   "properties": {
+    "Icon": "INSTANCE_SWAP"
+   },
+   "defaults": {
+    "Icon": "Icon/Settings",
+    "Variant": "Standard",
+    "State": "Default"
+   },
+   "variant_count": 6,
+   "use": "Compact action shown only as an icon (toolbar and top bar actions, close, search).",
+   "nests": [
+    "Icon/Settings"
+   ],
+   "docs": {
+    "use_cases": [
+     "Settings or search action in the Top App Bar",
+     "Close a sheet or dialog",
+     "One prominent floating action (Filled)"
+    ],
+    "when_to_use": [
+     "The icon meaning is universal: search, close, settings, back",
+     "Standard in bars, Filled for one prominent action"
+    ],
+    "when_not_to_use": [
+     "The action needs words to be understood (use Button with a label)",
+     "More than one Filled Icon Button on a screen"
+    ],
+    "guidelines": [
+     {
+      "do": "Use a universal icon and give it an accessibility label in code.",
+      "dont": "Use an icon whose meaning users must guess.",
+      "do_args": {
+       "Icon": "Icon/Search"
+      },
+      "dont_args": {
+       "Icon": "Icon/Globe"
       }
-    },
-    {
-      "name": "Title",
-      "description": "Screen and section titles. Bound to OS tokens: iOS / Android role switches with the OS mode, EN / AR with the Language mode.",
-      "font": "SF Pro Bold",
-      "size": 22,
-      "line_height": 28,
-      "letter_spacing": 0,
-      "bound": {
-        "fontSize": "OS::Font Size/Title",
-        "fontFamily": "OS::Font Family",
-        "lineHeight": "OS::Line Height/Title",
-        "fontWeight": "OS::Font Weight/Title"
+     },
+     {
+      "do": "Use Standard inside bars.",
+      "dont": "Use Filled for routine bar actions.",
+      "do_args": {
+       "Variant": "Standard",
+       "Icon": "Icon/Settings"
+      },
+      "dont_args": {
+       "Variant": "Filled",
+       "Icon": "Icon/Settings"
       }
-    },
-    {
-      "name": "Headline",
-      "description": "Emphasized row and card titles. Bound to OS tokens: iOS / Android role switches with the OS mode, EN / AR with the Language mode.",
-      "font": "SF Pro Regular",
-      "size": 17,
-      "line_height": 22,
-      "letter_spacing": 0,
-      "bound": {
-        "fontSize": "OS::Font Size/Headline",
-        "fontFamily": "OS::Font Family",
-        "lineHeight": "OS::Line Height/Headline",
-        "fontWeight": "OS::Font Weight/Headline"
+     }
+    ],
+    "content": [
+     "No visible text: the label lives in code (accessibility label)"
+    ]
+   }
+  },
+  {
+   "name": "Segment",
+   "group": "Navigation",
+   "page": "➜ Segmented Control",
+   "tier": "Atom",
+   "variants": {
+    "Selected": [
+     "Yes",
+     "No"
+    ]
+   },
+   "properties": {
+    "Label": "TEXT"
+   },
+   "defaults": {
+    "Label": "Segment",
+    "Selected": "Yes"
+   },
+   "variant_count": 2,
+   "use": "One option inside a Segmented Control. Not used on its own.",
+   "nests": [
+    "Icon/Check"
+   ],
+   "docs": {
+    "use_cases": [
+     "One option of a Segmented Control (Light / Dark / Auto)"
+    ],
+    "when_to_use": [
+     "Only inside a Segmented Control"
+    ],
+    "when_not_to_use": [
+     "On its own as a button (use Button)",
+     "As a tab between screens"
+    ],
+    "guidelines": [
+     {
+      "do": "Keep labels to one or two words.",
+      "dont": "Write long labels that wrap.",
+      "do_args": {
+       "Label": "Dark"
+      },
+      "dont_args": {
+       "Label": "Use the dark appearance"
       }
-    },
-    {
-      "name": "Body",
-      "description": "Default reading text, list item titles. Bound to OS tokens: iOS / Android role switches with the OS mode, EN / AR with the Language mode.",
-      "font": "SF Pro Regular",
-      "size": 17,
-      "line_height": 22,
-      "letter_spacing": 0,
-      "bound": {
-        "fontSize": "OS::Font Size/Body",
-        "fontFamily": "OS::Font Family",
-        "lineHeight": "OS::Line Height/Body",
-        "fontWeight": "OS::Font Weight/Body"
+     }
+    ],
+    "content": [
+     "1 to 2 words",
+     "No icons (Android adds the selected check automatically)"
+    ]
+   }
+  },
+  {
+   "name": "Segmented Control",
+   "group": "Navigation",
+   "page": "➜ Segmented Control",
+   "tier": "Molecule",
+   "variants": {},
+   "properties": {
+    "Show Segment 4": "BOOLEAN",
+    "Show Segment 3": "BOOLEAN"
+   },
+   "defaults": {
+    "Show Segment 4": false,
+    "Show Segment 3": true
+   },
+   "variant_count": 1,
+   "use": "Switches between 2-4 views or filters of the same content.",
+   "nests": [
+    "Segment",
+    "Icon/Check"
+   ],
+   "docs": {
+    "use_cases": [
+     "Appearance: Light / Dark / Auto",
+     "Switch a list between Day / Week / Month"
+    ],
+    "when_to_use": [
+     "2 to 4 views or filters of the same content",
+     "Exactly one option is selected at a time"
+    ],
+    "when_not_to_use": [
+     "More than 4 options (use Tabs or Select)",
+     "Actions (use Button)",
+     "Settings that turn on or off (use Toggle)"
+    ],
+    "guidelines": [
+     {
+      "do": "Use 2 to 4 short options of similar length.",
+      "dont": "Squeeze in a fourth option that is not needed.",
+      "do_args": {
+       "Show Segment 3": true,
+       "Show Segment 4": false
+      },
+      "dont_args": {
+       "Show Segment 3": true,
+       "Show Segment 4": true
       }
-    },
-    {
-      "name": "Subhead",
-      "description": "Supporting text under a title. Bound to OS tokens: iOS / Android role switches with the OS mode, EN / AR with the Language mode.",
-      "font": "SF Pro Regular",
-      "size": 15,
-      "line_height": 20,
-      "letter_spacing": 0,
-      "bound": {
-        "fontSize": "OS::Font Size/Subhead",
-        "fontFamily": "OS::Font Family",
-        "lineHeight": "OS::Line Height/Subhead",
-        "fontWeight": "OS::Font Weight/Subhead"
+     }
+    ],
+    "content": [
+     "Short labels of similar length"
+    ]
+   }
+  },
+  {
+   "name": "Top App Bar",
+   "group": "Navigation",
+   "page": "➜ Top App Bar",
+   "tier": "Organism",
+   "variants": {},
+   "properties": {
+    "Title": "TEXT",
+    "Show Back": "BOOLEAN",
+    "Back Label": "TEXT",
+    "Show Action": "BOOLEAN",
+    "Large Title": "BOOLEAN",
+    "Show Inline Title": "BOOLEAN"
+   },
+   "defaults": {
+    "Title": "Title",
+    "Show Back": true,
+    "Back Label": "Back",
+    "Show Action": true,
+    "Large Title": false,
+    "Show Inline Title": true
+   },
+   "variant_count": 1,
+   "use": "Top of every screen: title, back navigation and up to one action.",
+   "nests": [
+    "_Top App Bar Platform",
+    "Icon/Back",
+    "Icon Button",
+    "Icon/Settings"
+   ],
+   "issues": [
+    "Properties are exposed from the nested private set _Top App Bar Platform; its Platform variant is bound to OS::Platform/Name."
+   ],
+   "docs": {
+    "use_cases": [
+     "Title and back navigation at the top of every screen",
+     "Large title on the first screen of a section (iOS)",
+     "One secondary action such as settings"
+    ],
+    "when_to_use": [
+     "At the top of every screen",
+     "Show Back on every screen below the first",
+     "Large Title on top-level iOS screens"
+    ],
+    "when_not_to_use": [
+     "The private _Top App Bar Platform set directly",
+     "More than one action (move the rest to a menu or the screen)"
+    ],
+    "guidelines": [
+     {
+      "do": "Keep the title to 1 to 3 words.",
+      "dont": "Use a sentence as the title.",
+      "do_args": {
+       "Title": "Settings"
+      },
+      "dont_args": {
+       "Title": "Change the settings of your account"
       }
-    },
-    {
-      "name": "Footnote",
-      "description": "Section footers, helper text. Bound to OS tokens: iOS / Android role switches with the OS mode, EN / AR with the Language mode.",
-      "font": "SF Pro Regular",
-      "size": 13,
-      "line_height": 18,
-      "letter_spacing": 0,
-      "bound": {
-        "fontSize": "OS::Font Size/Footnote",
-        "fontFamily": "OS::Font Family",
-        "lineHeight": "OS::Line Height/Footnote",
-        "fontWeight": "OS::Font Weight/Footnote"
+     },
+     {
+      "do": "Show the action only for the screen's main secondary action.",
+      "dont": "Show an action that duplicates something on the screen.",
+      "do_args": {
+       "Show Action": true
+      },
+      "dont_args": {
+       "Show Action": true,
+       "Show Back": false,
+       "Title": "Save"
       }
-    },
-    {
-      "name": "Caption",
-      "description": "Labels on small elements. Bound to OS tokens: iOS / Android role switches with the OS mode, EN / AR with the Language mode.",
-      "font": "SF Pro Regular",
-      "size": 12,
-      "line_height": 16,
-      "letter_spacing": 0,
-      "bound": {
-        "fontSize": "OS::Font Size/Caption",
-        "fontFamily": "OS::Font Family",
-        "lineHeight": "OS::Line Height/Caption",
-        "fontWeight": "OS::Font Weight/Caption"
+     }
+    ],
+    "content": [
+     "Title 1 to 3 words",
+     "iOS Back Label is the previous screen's name or Back"
+    ]
+   }
+  },
+  {
+   "name": "Toggle",
+   "group": "Form Elements",
+   "page": "➜ Toggle",
+   "tier": "Atom",
+   "variants": {
+    "Value": [
+     "On",
+     "Off"
+    ],
+    "State": [
+     "Default",
+     "Disabled"
+    ]
+   },
+   "properties": {},
+   "defaults": {
+    "Value": "On",
+    "State": "Default"
+   },
+   "variant_count": 4,
+   "use": "Turns a single setting on or off with immediate effect.",
+   "nests": [],
+   "docs": {
+    "use_cases": [
+     "Notifications on or off",
+     "Dark mode on or off in settings"
+    ],
+    "when_to_use": [
+     "A single setting that applies at once",
+     "Inside a List Item with the label as its Title"
+    ],
+    "when_not_to_use": [
+     "Choices confirmed later with a button (use Checkbox)",
+     "Choosing one of several options (use Segmented Control or Radio)"
+    ],
+    "guidelines": [
+     {
+      "do": "Apply the change immediately when it is toggled.",
+      "dont": "Pair a Toggle with a Save button.",
+      "do_args": {
+       "Value": "On"
+      },
+      "dont_args": {
+       "Value": "Off"
       }
-    },
-    {
-      "name": "Button Label",
-      "description": "Button and segmented control labels. Bound to OS tokens: iOS / Android role switches with the OS mode, EN / AR with the Language mode.",
-      "font": "SF Pro Regular",
-      "size": 17,
-      "line_height": 22,
-      "letter_spacing": 0,
-      "bound": {
-        "fontSize": "OS::Font Size/Button Label",
-        "fontFamily": "OS::Font Family",
-        "lineHeight": "OS::Line Height/Button Label",
-        "fontWeight": "OS::Font Weight/Button Label"
+     }
+    ],
+    "content": [
+     "The label lives in the List Item Title, not inside the toggle"
+    ]
+   }
+  },
+  {
+   "name": "Checkbox",
+   "group": "Form Elements",
+   "page": "➜ Checkbox",
+   "tier": "Atom",
+   "variants": {
+    "Value": [
+     "Checked",
+     "Unchecked"
+    ],
+    "State": [
+     "Default",
+     "Disabled"
+    ]
+   },
+   "properties": {},
+   "defaults": {
+    "Value": "Checked",
+    "State": "Default"
+   },
+   "variant_count": 4,
+   "use": "Selects one or more items from a list, or confirms an option before submitting.",
+   "nests": [
+    "Icon/Check"
+   ],
+   "docs": {
+    "use_cases": [
+     "Pick several items in a list",
+     "Accept terms before submitting"
+    ],
+    "when_to_use": [
+     "Multi-select",
+     "Options confirmed by a later action"
+    ],
+    "when_not_to_use": [
+     "Settings that apply at once (use Toggle)",
+     "One choice from 2 to 6 options (use Radio)",
+     "One choice from 7 or more options (use Select)"
+    ],
+    "guidelines": [
+     {
+      "do": "Use it when the user confirms the choice later.",
+      "dont": "Use it for a setting that should apply at once.",
+      "do_args": {
+       "Value": "Checked"
+      },
+      "dont_args": {
+       "Value": "Unchecked"
       }
-    }
-  ],
-  "effect_styles": [
-    {
-      "name": "Elevation 1",
-      "description": "Android elevation level 1 (cards, raised bars). On iOS the color resolves to Shadow/None (transparent), so no shadow shows.",
-      "effects": [
-        {
-          "type": "DROP_SHADOW",
-          "radius": 3,
-          "offset": {
-            "x": 0,
-            "y": 1
-          },
-          "spread": 0,
-          "color": "#00000000",
-          "bound": {
-            "color": "OS::Shadow/Elevation 1"
-          }
-        }
-      ]
-    }
+     }
+    ],
+    "content": [
+     "The label lives in the List Item Title"
+    ]
+   }
+  },
+  {
+   "name": "Text Field",
+   "group": "Form Elements",
+   "page": "➜ Text Field",
+   "tier": "Molecule",
+   "variants": {
+    "State": [
+     "Default",
+     "Focused",
+     "Error",
+     "Disabled"
+    ]
+   },
+   "properties": {
+    "Label": "TEXT",
+    "Value": "TEXT",
+    "Helper Text": "TEXT",
+    "Show Helper Text": "BOOLEAN",
+    "Leading Icon": "BOOLEAN",
+    "Leading Icon Swap": "INSTANCE_SWAP",
+    "Trailing Icon": "BOOLEAN",
+    "Trailing Icon Swap": "INSTANCE_SWAP"
+   },
+   "defaults": {
+    "Label": "Display name",
+    "Value": "Abdul",
+    "Helper Text": "Shown on your profile",
+    "Show Helper Text": true,
+    "Leading Icon": false,
+    "Leading Icon Swap": "Icon/Person",
+    "Trailing Icon": true,
+    "Trailing Icon Swap": "Icon/Close",
+    "State": "Default"
+   },
+   "variant_count": 4,
+   "use": "Single-line text entry in forms and settings (names, email, search terms).",
+   "nests": [
+    "Icon/Person",
+    "Icon/Close"
+   ],
+   "docs": {
+    "use_cases": [
+     "Display name on a profile",
+     "Email or search term in a form"
+    ],
+    "when_to_use": [
+     "Single-line text entry",
+     "Always with a Label",
+     "Helper Text when the format needs explaining"
+    ],
+    "when_not_to_use": [
+     "Long text over several lines",
+     "Picking from 7 or more fixed options (use Select)",
+     "Picking from 2 to 6 options (use Radio)"
+    ],
+    "guidelines": [
+     {
+      "do": "Always set a Label.",
+      "dont": "Use the placeholder as the label.",
+      "do_args": {
+       "Label": "Display name",
+       "Value": "Abdul"
+      },
+      "dont_args": {
+       "Label": "",
+       "Value": "Enter your name"
+      }
+     },
+     {
+      "do": "In the Error state, replace the helper text with what to fix.",
+      "dont": "Show an error with color only and no message.",
+      "do_args": {
+       "State": "Error",
+       "Helper Text": "Enter at least 2 characters"
+      },
+      "dont_args": {
+       "State": "Error",
+       "Show Helper Text": false
+      }
+     }
+    ],
+    "content": [
+     "Label: 1 to 3 words",
+     "Helper Text: one short sentence",
+     "Error message says how to fix it"
+    ]
+   }
+  },
+  {
+   "name": "List Item",
+   "group": "Data Display",
+   "page": "➜ List Item",
+   "tier": "Molecule",
+   "variants": {
+    "Trailing": [
+     "Chevron",
+     "Value",
+     "Toggle",
+     "Checkbox",
+     "None"
+    ]
+   },
+   "properties": {
+    "Title": "TEXT",
+    "Supporting Text": "TEXT",
+    "Show Supporting Text": "BOOLEAN",
+    "Value": "TEXT",
+    "Leading Icon": "BOOLEAN",
+    "Leading Icon Swap": "INSTANCE_SWAP",
+    "Show Separator": "BOOLEAN"
+   },
+   "defaults": {
+    "Title": "Title",
+    "Supporting Text": "Supporting text",
+    "Show Supporting Text": false,
+    "Value": "English",
+    "Leading Icon": true,
+    "Leading Icon Swap": "Icon/Settings",
+    "Show Separator": true,
+    "Trailing": "Chevron"
+   },
+   "variant_count": 5,
+   "use": "One row in a list or settings group: navigates (Chevron, Value), toggles a setting (Toggle) or selects (Checkbox).",
+   "nests": [
+    "Icon/Settings",
+    "Icon/Chevron Right",
+    "Toggle",
+    "Checkbox",
+    "Icon/Check"
+   ],
+   "docs": {
+    "use_cases": [
+     "A row in a settings group",
+     "Open a detail screen (Chevron, Value)",
+     "Turn a setting on or off (Toggle)",
+     "Select items (Checkbox)"
+    ],
+    "when_to_use": [
+     "Rows of a list or settings group, stacked with no gap",
+     "Chevron or Value rows that open a new screen",
+     "Toggle rows that apply at once"
+    ],
+    "when_not_to_use": [
+     "A single action button (use Button)",
+     "Long content that needs more than 2 lines of supporting text"
+    ],
+    "guidelines": [
+     {
+      "do": "Turn Show Separator off on the last row of a group.",
+      "dont": "Leave a separator under the last row.",
+      "do_args": {
+       "Show Separator": false,
+       "Title": "Privacy",
+       "Leading Icon Swap": "Icon/Lock"
+      },
+      "dont_args": {
+       "Show Separator": true,
+       "Title": "Privacy",
+       "Leading Icon Swap": "Icon/Lock"
+      }
+     },
+     {
+      "do": "Keep the Title to one line.",
+      "dont": "Put a long sentence in the Title.",
+      "do_args": {
+       "Title": "Notifications",
+       "Trailing": "Toggle",
+       "Leading Icon Swap": "Icon/Notifications"
+      },
+      "dont_args": {
+       "Title": "Receive notifications about everything that happens",
+       "Trailing": "Toggle",
+       "Leading Icon Swap": "Icon/Notifications"
+      }
+     }
+    ],
+    "content": [
+     "Title: one line",
+     "Supporting Text: up to 2 lines"
+    ]
+   }
+  },
+  {
+   "name": "Pattern/Settings Screen",
+   "group": "Patterns",
+   "page": "➜ Settings",
+   "tier": "Pattern",
+   "variants": {},
+   "properties": {},
+   "defaults": {},
+   "variant_count": 1,
+   "use": "Reference Settings screen for the one-file native method: the same screen renders as iOS or Android through the OS mode.",
+   "nests": [
+    "Top App Bar",
+    "_Top App Bar Platform",
+    "Icon/Back",
+    "Icon Button",
+    "Icon/Settings",
+    "Text Field",
+    "Icon/Person",
+    "Icon/Close",
+    "Segmented Control",
+    "Segment",
+    "Icon/Check",
+    "List Item",
+    "Icon/Notifications",
+    "Toggle",
+    "Icon/Moon",
+    "Icon/Globe",
+    "Icon/Chevron Right",
+    "Icon/Lock",
+    "Button"
+   ],
+   "docs": {
+    "use_cases": [
+     "Reference for building a settings screen once for iOS and Android",
+     "Check that a screen follows the OS, Color and Language modes"
+    ],
+    "when_to_use": [
+     "As the model for screens built only from DS instances",
+     "Set OS, Color and Language modes on the screen frame"
+    ],
+    "when_not_to_use": [
+     "Detaching instances to fake a platform look",
+     "Building a separate iOS and Android copy of the same screen"
+    ],
+    "guidelines": [
+     {
+      "do": "Build the screen once and switch the modes to see each platform.",
+      "dont": "Duplicate the screen for iOS and Android."
+     }
+    ],
+    "content": [
+     "Real content in every instance, no placeholder text"
+    ]
+   }
+  },
+  {
+   "name": "Avatar",
+   "group": "Data Display",
+   "page": "➜ Avatar",
+   "tier": "Atom",
+   "variants": {},
+   "properties": {
+    "Initials": "TEXT"
+   },
+   "defaults": {
+    "Initials": "AS"
+   },
+   "variant_count": 1,
+   "use": "Initials identity fallback next to an account name.",
+   "nests": [],
+   "issues": [
+    "Avatar size aliases need user approval; see profile audit."
+   ]
+  },
+  {
+   "name": "Profile Header",
+   "group": "Data Display",
+   "page": "➜ Profile Header",
+   "tier": "Organism",
+   "variants": {},
+   "properties": {
+    "Display name": "TEXT",
+    "Email": "TEXT"
+   },
+   "defaults": {
+    "Display name": "Abdul Salah",
+    "Email": "abdul@example.com"
+   },
+   "variant_count": 1,
+   "use": "Account identity with Edit profile action.",
+   "nests": [
+    "Avatar",
+    "Button"
+   ],
+   "issues": [
+    "Android Button expanded touch area pending token approval."
+   ]
+  },
+  {
+   "name": "Pattern/Profile Screen",
+   "group": "Patterns",
+   "page": "➜ Profile",
+   "tier": "Pattern",
+   "variants": {},
+   "properties": {
+    "Personal section title": "TEXT",
+    "Account section title": "TEXT"
+   },
+   "defaults": {
+    "Personal section title": "Personal information",
+    "Account section title": "Account"
+   },
+   "variant_count": 1,
+   "use": "Native account profile with eight OS/Color/Language previews.",
+   "nests": [
+    "Top App Bar",
+    "Profile Header",
+    "List Item",
+    "Button"
+   ],
+   "issues": [
+    "Two profile audit decisions pending; user review pending."
+   ]
+  }
+ ],
+ "private_components": [
+  {
+   "name": "_Top App Bar Platform",
+   "variants": {
+    "Platform": [
+     "iOS",
+     "Android"
+    ]
+   },
+   "note": "Private: used only inside Top App Bar."
+  }
+ ],
+ "icons": {
+  "page": "➜ Icons",
+  "set": "SF Symbols style (iOS layer) + Material Symbols (Android layer)",
+  "naming": "Icon/<Name>",
+  "size": "22 iOS / 24 Android",
+  "color": "Glyph fill bound to Icon/* tokens",
+  "names": [
+   "Chevron Right",
+   "Back",
+   "Search",
+   "Settings",
+   "Notifications",
+   "Lock",
+   "Person",
+   "Check",
+   "Close",
+   "Globe",
+   "Moon"
   ]
+ },
+ "text_styles": [
+  {
+   "name": "Large Title",
+   "description": "Large title, top of a scrolling screen. Bound to OS tokens: iOS / Android role switches with the OS mode, EN / AR with the Language mode.",
+   "font": "SF Pro Bold",
+   "size": 34,
+   "line_height": 41,
+   "letter_spacing": 0,
+   "bound": {
+    "fontSize": "OS::Font Size/Large Title",
+    "fontFamily": "OS::Font Family",
+    "lineHeight": "OS::Line Height/Large Title",
+    "fontWeight": "OS::Font Weight/Large Title"
+   }
+  },
+  {
+   "name": "Title",
+   "description": "Screen and section titles. Bound to OS tokens: iOS / Android role switches with the OS mode, EN / AR with the Language mode.",
+   "font": "SF Pro Bold",
+   "size": 22,
+   "line_height": 28,
+   "letter_spacing": 0,
+   "bound": {
+    "fontSize": "OS::Font Size/Title",
+    "fontFamily": "OS::Font Family",
+    "lineHeight": "OS::Line Height/Title",
+    "fontWeight": "OS::Font Weight/Title"
+   }
+  },
+  {
+   "name": "Headline",
+   "description": "Emphasized row and card titles. Bound to OS tokens: iOS / Android role switches with the OS mode, EN / AR with the Language mode.",
+   "font": "SF Pro Regular",
+   "size": 17,
+   "line_height": 22,
+   "letter_spacing": 0,
+   "bound": {
+    "fontSize": "OS::Font Size/Headline",
+    "fontFamily": "OS::Font Family",
+    "lineHeight": "OS::Line Height/Headline",
+    "fontWeight": "OS::Font Weight/Headline"
+   }
+  },
+  {
+   "name": "Body",
+   "description": "Default reading text, list item titles. Bound to OS tokens: iOS / Android role switches with the OS mode, EN / AR with the Language mode.",
+   "font": "SF Pro Regular",
+   "size": 17,
+   "line_height": 22,
+   "letter_spacing": 0,
+   "bound": {
+    "fontSize": "OS::Font Size/Body",
+    "fontFamily": "OS::Font Family",
+    "lineHeight": "OS::Line Height/Body",
+    "fontWeight": "OS::Font Weight/Body"
+   }
+  },
+  {
+   "name": "Subhead",
+   "description": "Supporting text under a title. Bound to OS tokens: iOS / Android role switches with the OS mode, EN / AR with the Language mode.",
+   "font": "SF Pro Regular",
+   "size": 15,
+   "line_height": 20,
+   "letter_spacing": 0,
+   "bound": {
+    "fontSize": "OS::Font Size/Subhead",
+    "fontFamily": "OS::Font Family",
+    "lineHeight": "OS::Line Height/Subhead",
+    "fontWeight": "OS::Font Weight/Subhead"
+   }
+  },
+  {
+   "name": "Footnote",
+   "description": "Section footers, helper text. Bound to OS tokens: iOS / Android role switches with the OS mode, EN / AR with the Language mode.",
+   "font": "SF Pro Regular",
+   "size": 13,
+   "line_height": 18,
+   "letter_spacing": 0,
+   "bound": {
+    "fontSize": "OS::Font Size/Footnote",
+    "fontFamily": "OS::Font Family",
+    "lineHeight": "OS::Line Height/Footnote",
+    "fontWeight": "OS::Font Weight/Footnote"
+   }
+  },
+  {
+   "name": "Caption",
+   "description": "Labels on small elements. Bound to OS tokens: iOS / Android role switches with the OS mode, EN / AR with the Language mode.",
+   "font": "SF Pro Regular",
+   "size": 12,
+   "line_height": 16,
+   "letter_spacing": 0,
+   "bound": {
+    "fontSize": "OS::Font Size/Caption",
+    "fontFamily": "OS::Font Family",
+    "lineHeight": "OS::Line Height/Caption",
+    "fontWeight": "OS::Font Weight/Caption"
+   }
+  },
+  {
+   "name": "Button Label",
+   "description": "Button and segmented control labels. Bound to OS tokens: iOS / Android role switches with the OS mode, EN / AR with the Language mode.",
+   "font": "SF Pro Regular",
+   "size": 17,
+   "line_height": 22,
+   "letter_spacing": 0,
+   "bound": {
+    "fontSize": "OS::Font Size/Button Label",
+    "fontFamily": "OS::Font Family",
+    "lineHeight": "OS::Line Height/Button Label",
+    "fontWeight": "OS::Font Weight/Button Label"
+   }
+  }
+ ],
+ "effect_styles": [
+  {
+   "name": "Elevation 1",
+   "description": "Android elevation level 1 (cards, raised bars). On iOS the color resolves to Shadow/None (transparent), so no shadow shows.",
+   "effects": [
+    {
+     "type": "DROP_SHADOW",
+     "radius": 3,
+     "offset": {
+      "x": 0,
+      "y": 1
+     },
+     "spread": 0,
+     "color": "#00000000",
+     "bound": {
+      "color": "OS::Shadow/Elevation 1"
+     }
+    }
+   ]
+  }
+ ]
 }

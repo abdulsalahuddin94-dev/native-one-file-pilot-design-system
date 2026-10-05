@@ -1,0 +1,17 @@
+{
+ "note": "Figma node ids of each component set / component in the Native One File Pilot DS file, read 2026-10-05 with FigCli (read-only). Valid in this file only.",
+ "file": "https://www.figma.com/design/a2EAdCeKeaXN679TMNlIev/Native-One-File-Pilot-Design-System",
+ "components": {
+  "Button": "9:27861",
+  "Icon Button": "4:15444",
+  "Segment": "9:27895",
+  "Segmented Control": "9:27896",
+  "_Top App Bar Platform": "9:28482",
+  "Top App Bar": "9:28483",
+  "Toggle": "4:15484",
+  "Checkbox": "4:15524",
+  "Text Field": "9:28190",
+  "List Item": "9:28375",
+  "Pattern/Settings Screen": "9:28729"
+ }
+}

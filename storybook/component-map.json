@@ -1,0 +1,67 @@
+{
+ "note": "Figma component name -> React export that renders it. Used by tools/storybook_stories.py.",
+ "Button": {
+  "module": "Navigation",
+  "export": "Button",
+  "matrix": [
+   "Variant",
+   "State"
+  ]
+ },
+ "Icon Button": {
+  "module": "Navigation",
+  "export": "IconButton",
+  "matrix": [
+   "Variant",
+   "State"
+  ]
+ },
+ "Segment": {
+  "module": "Navigation",
+  "export": "Segment"
+ },
+ "Segmented Control": {
+  "module": "Navigation",
+  "export": "SegmentedControl",
+  "example": "<SegmentedControlInUse />",
+  "example_imports": [
+   "SegmentedControlInUse"
+  ]
+ },
+ "Top App Bar": {
+  "module": "Navigation",
+  "export": "TopAppBar"
+ },
+ "Toggle": {
+  "module": "FormElements",
+  "export": "Toggle",
+  "matrix": [
+   "Value",
+   "State"
+  ]
+ },
+ "Checkbox": {
+  "module": "FormElements",
+  "export": "Checkbox",
+  "matrix": [
+   "Value",
+   "State"
+  ]
+ },
+ "Text Field": {
+  "module": "FormElements",
+  "export": "TextField"
+ },
+ "List Item": {
+  "module": "DataDisplay",
+  "export": "ListItem",
+  "example": "<ListGroupInUse />",
+  "example_imports": [
+   "ListGroupInUse"
+  ]
+ },
+ "Pattern/Settings Screen": {
+  "module": "Patterns",
+  "export": "SettingsScreen"
+ }
+}

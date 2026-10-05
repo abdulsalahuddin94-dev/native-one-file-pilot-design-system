@@ -1,0 +1,180 @@
+{
+ "components": [
+  {
+   "name": "Button",
+   "description": "Purpose: Main action on a screen (Primary), alternative actions (Secondary), low emphasis or inline actions (Text).\nUsage Rules: One Primary per screen. Label is a verb, sentence case, 1-3 words. Leading Icon only when it adds meaning. Use Text for actions in bars and dialogs. Platform look (height, radius, label style) comes from the OS mode, never from a separate component.\nAccessibility: Touch target at least 44x44 (iOS) / 48x48 (Android): the 40px Android button needs 4px extra hit area. Primary label on the yellow fill uses Label/On Accent (14.7:1); Text label uses Label/Accent (4.7:1 on white). Disabled is not announced as actionable.",
+   "properties": {
+    "Label": {
+     "default": "Button"
+    },
+    "Leading Icon": {
+     "default": false
+    },
+    "Icon": {
+     "default": "Icon/Check"
+    },
+    "Variant": {
+     "default": "Primary"
+    },
+    "State": {
+     "default": "Default"
+    }
+   }
+  },
+  {
+   "name": "Icon Button",
+   "description": "Purpose: Compact action shown only as an icon (toolbar and top bar actions, close, search).\nUsage Rules: Use only for icons whose meaning is universal (search, close, settings, back); otherwise use Button with a label. Standard in bars, Filled for one prominent floating action. Swap the icon through the Icon property, never detach.\nAccessibility: Size equals the platform touch target (44 iOS / 48 Android). Needs an accessibility label in code (the icon has no text). Disabled uses State/Disabled Opacity (0.4 iOS / 0.38 Android).",
+   "properties": {
+    "Icon": {
+     "default": "Icon/Settings"
+    },
+    "Variant": {
+     "default": "Standard"
+    },
+    "State": {
+     "default": "Default"
+    }
+   }
+  },
+  {
+   "name": "Segment",
+   "description": "Purpose: One option inside a Segmented Control. Not used on its own.\nUsage Rules: Only inside Segmented Control. Label 1-2 words, no icons except the Android selected check (automatic).\nAccessibility: Selected state is not color-only: iOS adds a raised pill, Android adds a check icon.",
+   "properties": {
+    "Label": {
+     "default": "Segment"
+    },
+    "Selected": {
+     "default": "Yes"
+    }
+   }
+  },
+  {
+   "name": "Segmented Control",
+   "description": "Purpose: Switches between 2-4 views or filters of the same content.\nUsage Rules: Use 2-4 segments with short labels of similar length; more options -> Tabs or Select. Exactly one segment selected (set Selected on the exposed Segment). Not for actions (use Button) or settings (use Toggle).\nAccessibility: Each segment is at least 44 (iOS: 32 control + list padding) / 48 Android touch target in context. Selected state uses shape and icon, not only color. Labels via the exposed Segment Label properties.",
+   "properties": {
+    "Show Segment 4": {
+     "default": false
+    },
+    "Show Segment 3": {
+     "default": true
+    }
+   }
+  },
+  {
+   "name": "Top App Bar",
+   "description": "Purpose: Top of every screen: title, back navigation and up to one action.\nUsage Rules: Always use this wrapper (never the private set). Platform anatomy comes from the OS mode: iOS centered title with text back button and optional Large Title; Android left title with back arrow. Title 1-3 words. Show Action only for the screen's main secondary action.\nAccessibility: Back and Action targets are 44 iOS / 48 Android. Title uses Headline (iOS) / Title Large (Android) on Surface/Top Bar (contrast 15:1+). Back Label is announced as \"Back\" on iOS.",
+   "properties": {
+    "Title": {
+     "default": "Title"
+    },
+    "Show Back": {
+     "default": true
+    },
+    "Back Label": {
+     "default": "Back"
+    },
+    "Show Action": {
+     "default": true
+    },
+    "Large Title": {
+     "default": false
+    },
+    "Show Inline Title": {
+     "default": true
+    }
+   }
+  },
+  {
+   "name": "Toggle",
+   "description": "Purpose: Turns a single setting on or off with immediate effect.\nUsage Rules: Use in List Item trailing for settings that apply at once; use Checkbox for choices confirmed later or for multi-select. Never pair with a Save button. Label lives in the List Item title, not inside the toggle.\nAccessibility: Track meets the touch target only inside a List Item (44 iOS / 48 Android row). The yellow On track against white is 1.4:1, below the 3:1 non-text contrast guideline: state is also shown by thumb position, and Android adds a dark thumb (Fill/On Accent). Disabled uses State/Disabled Opacity.",
+   "properties": {
+    "Value": {
+     "default": "On"
+    },
+    "State": {
+     "default": "Default"
+    }
+   }
+  },
+  {
+   "name": "Checkbox",
+   "description": "Purpose: Selects one or more items from a list, or confirms an option before submitting.\nUsage Rules: Use for multi-select and for options confirmed by a later action; use Toggle for settings that apply at once and Radio (2-6 options) or Select (7+) for single choice. Label lives in the List Item title.\nAccessibility: Touch target comes from the List Item row (44 iOS / 48 Android); the box itself is 22 / 18. Check glyph on the yellow fill uses Icon/On Accent (14.7:1). Unchecked border uses Border/Strong (3:1+ on surfaces).",
+   "properties": {
+    "Value": {
+     "default": "Checked"
+    },
+    "State": {
+     "default": "Default"
+    }
+   }
+  },
+  {
+   "name": "Text Field",
+   "description": "Purpose: Single-line text entry in forms and settings (names, email, search terms).\nUsage Rules: Always set Label (it shows above the field on iOS and on the border on Android: never use placeholder as the label). Helper Text explains format; Error state replaces it with the error message. Trailing Close clears the value. Use Select for 7+ fixed options, Radio for 2-6. RTL (Language AR) mirrors icons and aligns text to the right automatically.\nAccessibility: Height 44 iOS / 56 Android (meets touch targets). Label and helper text use Label/Secondary (4.5:1+). Error is shown by text and border color, not color alone. Android floating label background follows Surface/Screen; place the field on that surface.",
+   "properties": {
+    "Label": {
+     "default": "Display name"
+    },
+    "Value": {
+     "default": "Abdul"
+    },
+    "Helper Text": {
+     "default": "Shown on your profile"
+    },
+    "Show Helper Text": {
+     "default": true
+    },
+    "Leading Icon": {
+     "default": false
+    },
+    "Leading Icon Swap": {
+     "default": "Icon/Person"
+    },
+    "Trailing Icon": {
+     "default": true
+    },
+    "Trailing Icon Swap": {
+     "default": "Icon/Close"
+    },
+    "State": {
+     "default": "Default"
+    }
+   }
+  },
+  {
+   "name": "List Item",
+   "description": "Purpose: One row in a list or settings group: navigates (Chevron, Value), toggles a setting (Toggle) or selects (Checkbox).\nUsage Rules: Stack rows in a group with no gap; turn Show Separator off on the last row of a group. Chevron/Value rows open a new screen (chevron shows on iOS only, Android uses the whole row). Toggle rows apply at once. Title 1 line, Supporting Text up to 2 lines. In RTL the row mirrors automatically; the exposed Toggle/Checkbox exist once per direction (set both when overriding).\nAccessibility: Whole row is the touch target (44 iOS / 56 Android). Toggle and Checkbox take their label from Title. Title Label/Primary, supporting and value text Label/Secondary (4.5:1+).",
+   "properties": {
+    "Title": {
+     "default": "Title"
+    },
+    "Supporting Text": {
+     "default": "Supporting text"
+    },
+    "Show Supporting Text": {
+     "default": false
+    },
+    "Value": {
+     "default": "English"
+    },
+    "Leading Icon": {
+     "default": true
+    },
+    "Leading Icon Swap": {
+     "default": "Icon/Settings"
+    },
+    "Show Separator": {
+     "default": true
+    },
+    "Trailing": {
+     "default": "Chevron"
+    }
+   }
+  },
+  {
+   "name": "Pattern/Settings Screen",
+   "description": "Purpose: Reference Settings screen for the one-file native method: the same screen renders as iOS or Android through the OS mode.\nUsage Rules: Build screens from DS instances only. Set OS, Color and Language modes on the screen frame; never detach to fake a platform.\nAccessibility: Touch targets and contrast come from the components.",
+   "properties": {}
+  }
+ ]
+}
